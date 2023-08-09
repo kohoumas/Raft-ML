@@ -1,0 +1,3013 @@
+
+
+-- Tcpdump or pyshark starts at nodes
+-- Raftexample starts at nodes
+Iter: 0, @nodes [1, 2, 3] => leader: 3, term: 2
+  Interface s3-eth2 goes down for 5 sec
+  Interface s3-eth2 goes up and wait for 5 sec before next iteration
+Iter: 1, @nodes [1, 2, 3] => leader: 1, term: 3
+  Node 1 goes down for 5 sec
+  Node 1 goes up and wait for 5 sec before next iteration
+Iter: 2, @nodes [1, 2, 3] => leader: 2, term: 4
+  Node 2 goes down for 5 sec
+  Node 2 goes up and wait for 5 sec before next iteration
+Iter: 3, @nodes [1, 2, 3] => leader: 3, term: 5
+  Interface s3-eth3 goes down for 5 sec
+  Interface s3-eth3 goes up and wait for 5 sec before next iteration
+Iter: 4, @nodes [1, 2, 3] => leader: 2, term: 6
+  Node 2 goes down for 5 sec
+  Node 2 goes up and wait for 5 sec before next iteration
+Iter: 5, @nodes [1, 2, 3] => leader: 1, term: 7
+  Node 1 goes down for 5 sec
+  Node 1 goes up and wait for 5 sec before next iteration
+Iter: 6, @nodes [1, 2, 3] => leader: 2, term: 8
+  Node 2 goes down for 5 sec
+  Node 2 goes up and wait for 5 sec before next iteration
+Iter: 7, @nodes [1, 2, 3] => leader: 3, term: 10
+  Interface s3-eth3 goes down for 5 sec
+  Interface s3-eth3 goes up and wait for 5 sec before next iteration
+Iter: 8, @nodes [1, 2, 3] => leader: 2, term: 11
+  Interface s2-eth2 goes down for 5 sec
+  Interface s2-eth2 goes up and wait for 5 sec before next iteration
+Iter: 9, @nodes [1, 2, 3] => leader: 3, term: 12
+  Node 3 goes down for 5 sec
+  Node 3 goes up and wait for 5 sec before next iteration
+Iter: 10, @nodes [1, 2, 3] => leader: 1, term: 13
+  Interface s1-eth2 goes down for 5 sec
+  Interface s1-eth2 goes up and wait for 5 sec before next iteration
+Iter: 11, @nodes [1, 2, 3] => leader: 2, term: 14
+  Interface s2-eth3 goes down for 5 sec
+  Interface s2-eth3 goes up and wait for 5 sec before next iteration
+Iter: 12, @nodes [1, 2, 3] => leader: 1, term: 15
+  Interface s1-eth2 goes down for 5 sec
+  Interface s1-eth2 goes up and wait for 5 sec before next iteration
+Iter: 13, @nodes [1, 2, 3] => leader: 2, term: 16
+  Node 2 goes down for 5 sec
+  Node 2 goes up and wait for 5 sec before next iteration
+Iter: 14, @nodes [1, 2, 3] => leader: 3, term: 17
+  Interface s3-eth3 goes down for 5 sec
+  Interface s3-eth3 goes up and wait for 5 sec before next iteration
+Iter: 15, @nodes [1, 2, 3] => leader: 2, term: 18
+  Interface s2-eth2 goes down for 5 sec
+  Interface s2-eth2 goes up and wait for 5 sec before next iteration
+Iter: 16, @nodes [1, 2, 3] => leader: 3, term: 19
+  Node 3 goes down for 5 sec
+  Node 3 goes up and wait for 5 sec before next iteration
+Iter: 17, @nodes [1, 2, 3] => leader: 2, term: 20
+  Node 2 goes down for 5 sec
+  Node 2 goes up and wait for 5 sec before next iteration
+Iter: 18, @nodes [1, 2, 3] => leader: 3, term: 21
+  Node 3 goes down for 5 sec
+  Node 3 goes up and wait for 5 sec before next iteration
+Iter: 19, @nodes [1, 2, 3] => leader: 2, term: 22
+  Interface s2-eth2 goes down for 5 sec
+  Interface s2-eth2 goes up and wait for 5 sec before next iteration
+Iter: 20, @nodes [1, 2, 3] => leader: 3, term: 23
+  Node 3 goes down for 5 sec
+  Node 3 goes up and wait for 5 sec before next iteration
+Iter: 21, @nodes [1, 2, 3] => leader: 1, term: 24
+  Node 1 goes down for 5 sec
+  Node 1 goes up and wait for 5 sec before next iteration
+Iter: 22, @nodes [1, 2, 3] => leader: 2, term: 25
+  Interface s2-eth2 goes down for 5 sec
+  Interface s2-eth2 goes up and wait for 5 sec before next iteration
+Iter: 23, @nodes [1, 2, 3] => leader: 3, term: 26
+  Interface s3-eth2 goes down for 5 sec
+  Interface s3-eth2 goes up and wait for 5 sec before next iteration
+Iter: 24, @nodes [1, 2, 3] => leader: 1, term: 27
+  Node 1 goes down for 5 sec
+  Node 1 goes up and wait for 5 sec before next iteration
+Iter: 25, @nodes [1, 2, 3] => leader: 2, term: 28
+  Node 2 goes down for 5 sec
+  Node 2 goes up and wait for 5 sec before next iteration
+Iter: 26, @nodes [1, 2, 3] => leader: 1, term: 29
+  Interface s1-eth3 goes down for 5 sec
+  Interface s1-eth3 goes up and wait for 5 sec before next iteration
+Iter: 27, @nodes [1, 2, 3] => leader: 3, term: 30
+  Interface s3-eth3 goes down for 5 sec
+  Interface s3-eth3 goes up and wait for 5 sec before next iteration
+Iter: 28, @nodes [1, 2, 3] => leader: 2, term: 31
+  Node 2 goes down for 5 sec
+  Node 2 goes up and wait for 5 sec before next iteration
+Iter: 29, @nodes [1, 2, 3] => leader: 1, term: 32
+  Interface s1-eth2 goes down for 5 sec
+  Interface s1-eth2 goes up and wait for 5 sec before next iteration
+Iter: 30, @nodes [1, 2, 3] => leader: 2, term: 33
+  Node 2 goes down for 5 sec
+  Node 2 goes up and wait for 5 sec before next iteration
+Iter: 31, @nodes [1, 2, 3] => leader: 1, term: 34
+  Node 1 goes down for 5 sec
+  Node 1 goes up and wait for 5 sec before next iteration
+Iter: 32, @nodes [1, 2, 3] => leader: 2, term: 35
+  Node 2 goes down for 5 sec
+  Node 2 goes up and wait for 5 sec before next iteration
+Iter: 33, @nodes [1, 2, 3] => leader: 1, term: 36
+  Node 1 goes down for 5 sec
+  Node 1 goes up and wait for 5 sec before next iteration
+Iter: 34, @nodes [1, 2, 3] => leader: 2, term: 37
+  Node 2 goes down for 5 sec
+  Node 2 goes up and wait for 5 sec before next iteration
+Iter: 35, @nodes [1, 2, 3] => leader: 1, term: 38
+  Node 1 goes down for 5 sec
+  Node 1 goes up and wait for 5 sec before next iteration
+Iter: 36, @nodes [1, 2, 3] => leader: 3, term: 39
+  Interface s3-eth3 goes down for 5 sec
+  Interface s3-eth3 goes up and wait for 5 sec before next iteration
+Iter: 37, @nodes [1, 2, 3] => leader: 2, term: 40
+  Node 2 goes down for 5 sec
+  Node 2 goes up and wait for 5 sec before next iteration
+Iter: 38, @nodes [1, 2, 3] => leader: 1, term: 41
+  Node 1 goes down for 5 sec
+  Node 1 goes up and wait for 5 sec before next iteration
+Iter: 39, @nodes [1, 2, 3] => leader: 3, term: 42
+  Interface s3-eth2 goes down for 5 sec
+  Interface s3-eth2 goes up and wait for 5 sec before next iteration
+Iter: 40, @nodes [1, 2, 3] => leader: 1, term: 43
+  Node 1 goes down for 5 sec
+  Node 1 goes up and wait for 5 sec before next iteration
+Iter: 41, @nodes [1, 2, 3] => leader: 2, term: 44
+  Node 2 goes down for 5 sec
+  Node 2 goes up and wait for 5 sec before next iteration
+Iter: 42, @nodes [1, 2, 3] => leader: 3, term: 45
+  Node 3 goes down for 5 sec
+  Node 3 goes up and wait for 5 sec before next iteration
+Iter: 43, @nodes [1, 2, 3] => leader: 2, term: 46
+  Node 2 goes down for 5 sec
+  Node 2 goes up and wait for 5 sec before next iteration
+Iter: 44, @nodes [1, 2, 3] => leader: 3, term: 47
+  Interface s3-eth3 goes down for 5 sec
+  Interface s3-eth3 goes up and wait for 5 sec before next iteration
+Iter: 45, @nodes [1, 2, 3] => leader: 2, term: 48
+  Node 2 goes down for 5 sec
+  Node 2 goes up and wait for 5 sec before next iteration
+Iter: 46, @nodes [1, 2, 3] => leader: 3, term: 49
+  Interface s3-eth2 goes down for 5 sec
+  Interface s3-eth2 goes up and wait for 5 sec before next iteration
+Iter: 47, @nodes [1, 2, 3] => leader: 1, term: 50
+  Interface s1-eth3 goes down for 5 sec
+  Interface s1-eth3 goes up and wait for 5 sec before next iteration
+Iter: 48, @nodes [1, 2, 3] => leader: 3, term: 51
+  Interface s3-eth2 goes down for 5 sec
+  Interface s3-eth2 goes up and wait for 5 sec before next iteration
+Iter: 49, @nodes [1, 2, 3] => leader: 1, term: 52
+  Node 1 goes down for 5 sec
+  Node 1 goes up and wait for 5 sec before next iteration
+Iter: 50, @nodes [1, 2, 3] => leader: 3, term: 54
+  Node 3 goes down for 5 sec
+  Node 3 goes up and wait for 5 sec before next iteration
+Iter: 51, @nodes [1, 2, 3] => leader: 1, term: 55
+  Node 1 goes down for 5 sec
+  Node 1 goes up and wait for 5 sec before next iteration
+Iter: 52, @nodes [1, 2, 3] => leader: 3, term: 57
+  Node 3 goes down for 5 sec
+  Node 3 goes up and wait for 5 sec before next iteration
+Iter: 53, @nodes [1, 2, 3] => leader: 2, term: 58
+  Node 2 goes down for 5 sec
+  Node 2 goes up and wait for 5 sec before next iteration
+Iter: 54, @nodes [1, 2, 3] => leader: 1, term: 59
+  Interface s1-eth2 goes down for 5 sec
+  Interface s1-eth2 goes up and wait for 5 sec before next iteration
+Iter: 55, @nodes [1, 2, 3] => leader: 2, term: 60
+  Node 2 goes down for 5 sec
+  Node 2 goes up and wait for 5 sec before next iteration
+Iter: 56, @nodes [1, 2, 3] => leader: 3, term: 61
+  Interface s3-eth3 goes down for 5 sec
+  Interface s3-eth3 goes up and wait for 5 sec before next iteration
+Iter: 57, @nodes [1, 2, 3] => leader: 2, term: 62
+  Node 2 goes down for 5 sec
+  Node 2 goes up and wait for 5 sec before next iteration
+Iter: 58, @nodes [1, 2, 3] => leader: 1, term: 63
+  Node 1 goes down for 5 sec
+  Node 1 goes up and wait for 5 sec before next iteration
+Iter: 59, @nodes [1, 2, 3] => leader: 3, term: 64
+  Node 3 goes down for 5 sec
+  Node 3 goes up and wait for 5 sec before next iteration
+Iter: 60, @nodes [1, 2, 3] => leader: 2, term: 65
+  Interface s2-eth3 goes down for 5 sec
+  Interface s2-eth3 goes up and wait for 5 sec before next iteration
+Iter: 61, @nodes [1, 2, 3] => leader: 1, term: 66
+  Interface s1-eth2 goes down for 5 sec
+  Interface s1-eth2 goes up and wait for 5 sec before next iteration
+Iter: 62, @nodes [1, 2, 3] => leader: 2, term: 67
+  Interface s2-eth2 goes down for 5 sec
+  Interface s2-eth2 goes up and wait for 5 sec before next iteration
+Iter: 63, @nodes [1, 2, 3] => leader: 3, term: 68
+  Node 3 goes down for 5 sec
+  Node 3 goes up and wait for 5 sec before next iteration
+Iter: 64, @nodes [1, 2, 3] => leader: 1, term: 69
+  Interface s1-eth2 goes down for 5 sec
+  Interface s1-eth2 goes up and wait for 5 sec before next iteration
+Iter: 65, @nodes [1, 2, 3] => leader: 2, term: 70
+  Node 2 goes down for 5 sec
+  Node 2 goes up and wait for 5 sec before next iteration
+Iter: 66, @nodes [1, 2, 3] => leader: 1, term: 71
+  Node 1 goes down for 5 sec
+  Node 1 goes up and wait for 5 sec before next iteration
+Iter: 67, @nodes [1, 2, 3] => leader: 2, term: 72
+  Interface s2-eth2 goes down for 5 sec
+  Interface s2-eth2 goes up and wait for 5 sec before next iteration
+Iter: 68, @nodes [1, 2, 3] => leader: 3, term: 73
+  Node 3 goes down for 5 sec
+  Node 3 goes up and wait for 5 sec before next iteration
+Iter: 69, @nodes [1, 2, 3] => leader: 1, term: 74
+  Interface s1-eth2 goes down for 5 sec
+  Interface s1-eth2 goes up and wait for 5 sec before next iteration
+Iter: 70, @nodes [1, 2, 3] => leader: 2, term: 75
+  Interface s2-eth2 goes down for 5 sec
+  Interface s2-eth2 goes up and wait for 5 sec before next iteration
+Iter: 71, @nodes [1, 2, 3] => leader: 3, term: 76
+  Node 3 goes down for 5 sec
+  Node 3 goes up and wait for 5 sec before next iteration
+Iter: 72, @nodes [1, 2, 3] => leader: 2, term: 77
+  Interface s2-eth2 goes down for 5 sec
+  Interface s2-eth2 goes up and wait for 5 sec before next iteration
+Iter: 73, @nodes [1, 2, 3] => leader: 3, term: 78
+  Node 3 goes down for 5 sec
+  Node 3 goes up and wait for 5 sec before next iteration
+Iter: 74, @nodes [1, 2, 3] => leader: 1, term: 79
+  Interface s1-eth3 goes down for 5 sec
+  Interface s1-eth3 goes up and wait for 5 sec before next iteration
+Iter: 75, @nodes [1, 2, 3] => leader: 3, term: 80
+  Node 3 goes down for 5 sec
+  Node 3 goes up and wait for 5 sec before next iteration
+Iter: 76, @nodes [1, 2, 3] => leader: 1, term: 81
+  Node 1 goes down for 5 sec
+  Node 1 goes up and wait for 5 sec before next iteration
+Iter: 77, @nodes [1, 2, 3] => leader: 3, term: 82
+  Node 3 goes down for 5 sec
+  Node 3 goes up and wait for 5 sec before next iteration
+Iter: 78, @nodes [1, 2, 3] => leader: 2, term: 83
+  Node 2 goes down for 5 sec
+  Node 2 goes up and wait for 5 sec before next iteration
+Iter: 79, @nodes [1, 2, 3] => leader: 3, term: 84
+  Interface s3-eth2 goes down for 5 sec
+  Interface s3-eth2 goes up and wait for 5 sec before next iteration
+Iter: 80, @nodes [1, 2, 3] => leader: 1, term: 85
+  Node 1 goes down for 5 sec
+  Node 1 goes up and wait for 5 sec before next iteration
+Iter: 81, @nodes [1, 2, 3] => leader: 2, term: 86
+  Node 2 goes down for 5 sec
+  Node 2 goes up and wait for 5 sec before next iteration
+Iter: 82, @nodes [1, 2, 3] => leader: 3, term: 87
+  Interface s3-eth2 goes down for 5 sec
+  Interface s3-eth2 goes up and wait for 5 sec before next iteration
+Iter: 83, @nodes [1, 2, 3] => leader: 1, term: 88
+  Interface s1-eth2 goes down for 5 sec
+  Interface s1-eth2 goes up and wait for 5 sec before next iteration
+Iter: 84, @nodes [1, 2, 3] => leader: 2, term: 89
+  Interface s2-eth3 goes down for 5 sec
+  Interface s2-eth3 goes up and wait for 5 sec before next iteration
+Iter: 85, @nodes [1, 2, 3] => leader: 1, term: 90
+  Interface s1-eth3 goes down for 5 sec
+  Interface s1-eth3 goes up and wait for 5 sec before next iteration
+Iter: 86, @nodes [1, 2, 3] => leader: 3, term: 91
+  Node 3 goes down for 5 sec
+  Node 3 goes up and wait for 5 sec before next iteration
+Iter: 87, @nodes [1, 2, 3] => leader: 2, term: 92
+  Interface s2-eth3 goes down for 5 sec
+  Interface s2-eth3 goes up and wait for 5 sec before next iteration
+Iter: 88, @nodes [1, 2, 3] => leader: 1, term: 93
+  Node 1 goes down for 5 sec
+  Node 1 goes up and wait for 5 sec before next iteration
+Iter: 89, @nodes [1, 2, 3] => leader: 3, term: 94
+  Node 3 goes down for 5 sec
+  Node 3 goes up and wait for 5 sec before next iteration
+Iter: 90, @nodes [1, 2, 3] => leader: 2, term: 95
+  Interface s2-eth2 goes down for 5 sec
+  Interface s2-eth2 goes up and wait for 5 sec before next iteration
+Iter: 91, @nodes [1, 2, 3] => leader: 3, term: 96
+  Interface s3-eth2 goes down for 5 sec
+  Interface s3-eth2 goes up and wait for 5 sec before next iteration
+Iter: 92, @nodes [1, 2, 3] => leader: 1, term: 97
+  Interface s1-eth2 goes down for 5 sec
+  Interface s1-eth2 goes up and wait for 5 sec before next iteration
+Iter: 93, @nodes [1, 2, 3] => leader: 2, term: 98
+  Interface s2-eth3 goes down for 5 sec
+  Interface s2-eth3 goes up and wait for 5 sec before next iteration
+Iter: 94, @nodes [1, 2, 3] => leader: 1, term: 99
+  Interface s1-eth3 goes down for 5 sec
+  Interface s1-eth3 goes up and wait for 5 sec before next iteration
+Iter: 95, @nodes [1, 2, 3] => leader: 3, term: 100
+  Node 3 goes down for 5 sec
+  Node 3 goes up and wait for 5 sec before next iteration
+Iter: 96, @nodes [1, 2, 3] => leader: 2, term: 102
+  Node 2 goes down for 5 sec
+  Node 2 goes up and wait for 5 sec before next iteration
+Iter: 97, @nodes [1, 2, 3] => leader: 3, term: 103
+  Node 3 goes down for 5 sec
+  Node 3 goes up and wait for 5 sec before next iteration
+Iter: 98, @nodes [1, 2, 3] => leader: 1, term: 104
+  Interface s1-eth2 goes down for 5 sec
+  Interface s1-eth2 goes up and wait for 5 sec before next iteration
+Iter: 99, @nodes [1, 2, 3] => leader: 2, term: 105
+  Interface s2-eth3 goes down for 5 sec
+  Interface s2-eth3 goes up and wait for 5 sec before next iteration
+Iter: 100, @nodes [1, 2, 3] => leader: 1, term: 106
+  Interface s1-eth3 goes down for 5 sec
+  Interface s1-eth3 goes up and wait for 5 sec before next iteration
+Iter: 101, @nodes [1, 2, 3] => leader: 3, term: 107
+  Interface s3-eth3 goes down for 5 sec
+  Interface s3-eth3 goes up and wait for 5 sec before next iteration
+Iter: 102, @nodes [1, 2, 3] => leader: 2, term: 108
+  Node 2 goes down for 5 sec
+  Node 2 goes up and wait for 5 sec before next iteration
+Iter: 103, @nodes [1, 2, 3] => leader: 1, term: 109
+  Node 1 goes down for 5 sec
+  Node 1 goes up and wait for 5 sec before next iteration
+Iter: 104, @nodes [1, 2, 3] => leader: 2, term: 110
+  Node 2 goes down for 5 sec
+  Node 2 goes up and wait for 5 sec before next iteration
+Iter: 105, @nodes [1, 2, 3] => leader: 1, term: 111
+  Node 1 goes down for 5 sec
+  Node 1 goes up and wait for 5 sec before next iteration
+Iter: 106, @nodes [1, 2, 3] => leader: 2, term: 112
+  Interface s2-eth3 goes down for 5 sec
+  Interface s2-eth3 goes up and wait for 5 sec before next iteration
+Iter: 107, @nodes [1, 2, 3] => leader: 1, term: 113
+  Node 1 goes down for 5 sec
+  Node 1 goes up and wait for 5 sec before next iteration
+Iter: 108, @nodes [1, 2, 3] => leader: 3, term: 114
+  Interface s3-eth2 goes down for 5 sec
+  Interface s3-eth2 goes up and wait for 5 sec before next iteration
+Iter: 109, @nodes [1, 2, 3] => leader: 1, term: 115
+  Node 1 goes down for 5 sec
+  Node 1 goes up and wait for 5 sec before next iteration
+Iter: 110, @nodes [1, 2, 3] => leader: 2, term: 116
+  Interface s2-eth3 goes down for 5 sec
+  Interface s2-eth3 goes up and wait for 5 sec before next iteration
+Iter: 111, @nodes [1, 2, 3] => leader: 1, term: 117
+  Node 1 goes down for 5 sec
+  Node 1 goes up and wait for 5 sec before next iteration
+Iter: 112, @nodes [1, 2, 3] => leader: 3, term: 118
+  Interface s3-eth3 goes down for 5 sec
+  Interface s3-eth3 goes up and wait for 5 sec before next iteration
+Iter: 113, @nodes [1, 2, 3] => leader: 2, term: 119
+  Node 2 goes down for 5 sec
+  Node 2 goes up and wait for 5 sec before next iteration
+Iter: 114, @nodes [1, 2, 3] => leader: 3, term: 120
+  Node 3 goes down for 5 sec
+  Node 3 goes up and wait for 5 sec before next iteration
+Iter: 115, @nodes [1, 2, 3] => leader: 2, term: 121
+  Interface s2-eth3 goes down for 5 sec
+  Interface s2-eth3 goes up and wait for 5 sec before next iteration
+Iter: 116, @nodes [1, 2, 3] => leader: 1, term: 122
+  Interface s1-eth2 goes down for 5 sec
+  Interface s1-eth2 goes up and wait for 5 sec before next iteration
+Iter: 117, @nodes [1, 2, 3] => leader: 2, term: 123
+  Interface s2-eth2 goes down for 5 sec
+  Interface s2-eth2 goes up and wait for 5 sec before next iteration
+Iter: 118, @nodes [1, 2, 3] => leader: 3, term: 124
+  Node 3 goes down for 5 sec
+  Node 3 goes up and wait for 5 sec before next iteration
+Iter: 119, @nodes [1, 2, 3] => leader: 2, term: 125
+  Node 2 goes down for 5 sec
+  Node 2 goes up and wait for 5 sec before next iteration
+Iter: 120, @nodes [1, 2, 3] => leader: 3, term: 126
+  Node 3 goes down for 5 sec
+  Node 3 goes up and wait for 5 sec before next iteration
+Iter: 121, @nodes [1, 2, 3] => leader: 1, term: 127
+  Node 1 goes down for 5 sec
+  Node 1 goes up and wait for 5 sec before next iteration
+Iter: 122, @nodes [1, 2, 3] => leader: 3, term: 128
+  Interface s3-eth3 goes down for 5 sec
+  Interface s3-eth3 goes up and wait for 5 sec before next iteration
+Iter: 123, @nodes [1, 2, 3] => leader: 2, term: 129
+  Interface s2-eth2 goes down for 5 sec
+  Interface s2-eth2 goes up and wait for 5 sec before next iteration
+Iter: 124, @nodes [1, 2, 3] => leader: 3, term: 130
+  Interface s3-eth2 goes down for 5 sec
+  Interface s3-eth2 goes up and wait for 5 sec before next iteration
+Iter: 125, @nodes [1, 2, 3] => leader: 1, term: 131
+  Node 1 goes down for 5 sec
+  Node 1 goes up and wait for 5 sec before next iteration
+Iter: 126, @nodes [1, 2, 3] => leader: 3, term: 132
+  Interface s3-eth3 goes down for 5 sec
+  Interface s3-eth3 goes up and wait for 5 sec before next iteration
+Iter: 127, @nodes [1, 2, 3] => leader: 2, term: 133
+  Node 2 goes down for 5 sec
+  Node 2 goes up and wait for 5 sec before next iteration
+Iter: 128, @nodes [1, 2, 3] => leader: 3, term: 134
+  Interface s3-eth3 goes down for 5 sec
+  Interface s3-eth3 goes up and wait for 5 sec before next iteration
+Iter: 129, @nodes [1, 2, 3] => leader: 2, term: 135
+  Interface s2-eth3 goes down for 5 sec
+  Interface s2-eth3 goes up and wait for 5 sec before next iteration
+Iter: 130, @nodes [1, 2, 3] => leader: 1, term: 136
+  Node 1 goes down for 5 sec
+  Node 1 goes up and wait for 5 sec before next iteration
+Iter: 131, @nodes [1, 2, 3] => leader: 3, term: 137
+  Node 3 goes down for 5 sec
+  Node 3 goes up and wait for 5 sec before next iteration
+Iter: 132, @nodes [1, 2, 3] => leader: 2, term: 138
+  Interface s2-eth2 goes down for 5 sec
+  Interface s2-eth2 goes up and wait for 5 sec before next iteration
+Iter: 133, @nodes [1, 2, 3] => leader: 3, term: 139
+  Node 3 goes down for 5 sec
+  Node 3 goes up and wait for 5 sec before next iteration
+Iter: 134, @nodes [1, 2, 3] => leader: 1, term: 140
+  Node 1 goes down for 5 sec
+  Node 1 goes up and wait for 5 sec before next iteration
+Iter: 135, @nodes [1, 2, 3] => leader: 3, term: 141
+  Interface s3-eth3 goes down for 5 sec
+  Interface s3-eth3 goes up and wait for 5 sec before next iteration
+Iter: 136, @nodes [1, 2, 3] => leader: 2, term: 142
+  Interface s2-eth2 goes down for 5 sec
+  Interface s2-eth2 goes up and wait for 5 sec before next iteration
+Iter: 137, @nodes [1, 2, 3] => leader: 3, term: 143
+  Node 3 goes down for 5 sec
+  Node 3 goes up and wait for 5 sec before next iteration
+Iter: 138, @nodes [1, 2, 3] => leader: 1, term: 144
+  Node 1 goes down for 5 sec
+  Node 1 goes up and wait for 5 sec before next iteration
+Iter: 139, @nodes [1, 2, 3] => leader: 2, term: 145
+  Interface s2-eth3 goes down for 5 sec
+  Interface s2-eth3 goes up and wait for 5 sec before next iteration
+Iter: 140, @nodes [1, 2, 3] => leader: 1, term: 146
+  Node 1 goes down for 5 sec
+  Node 1 goes up and wait for 5 sec before next iteration
+Iter: 141, @nodes [1, 2, 3] => leader: 3, term: 147
+  Interface s3-eth3 goes down for 5 sec
+  Interface s3-eth3 goes up and wait for 5 sec before next iteration
+Iter: 142, @nodes [1, 2, 3] => leader: 2, term: 148
+  Interface s2-eth3 goes down for 5 sec
+  Interface s2-eth3 goes up and wait for 5 sec before next iteration
+Iter: 143, @nodes [1, 2, 3] => leader: 1, term: 149
+  Node 1 goes down for 5 sec
+  Node 1 goes up and wait for 5 sec before next iteration
+Iter: 144, @nodes [1, 2, 3] => leader: 3, term: 150
+  Node 3 goes down for 5 sec
+  Node 3 goes up and wait for 5 sec before next iteration
+Iter: 145, @nodes [1, 2, 3] => leader: 2, term: 151
+  Interface s2-eth3 goes down for 5 sec
+  Interface s2-eth3 goes up and wait for 5 sec before next iteration
+Iter: 146, @nodes [1, 2, 3] => leader: 1, term: 152
+  Node 1 goes down for 5 sec
+  Node 1 goes up and wait for 5 sec before next iteration
+Iter: 147, @nodes [1, 2, 3] => leader: 2, term: 153
+  Interface s2-eth3 goes down for 5 sec
+  Interface s2-eth3 goes up and wait for 5 sec before next iteration
+Iter: 148, @nodes [1, 2, 3] => leader: 1, term: 154
+  Node 1 goes down for 5 sec
+  Node 1 goes up and wait for 5 sec before next iteration
+Iter: 149, @nodes [1, 2, 3] => leader: 2, term: 155
+  Interface s2-eth2 goes down for 5 sec
+  Interface s2-eth2 goes up and wait for 5 sec before next iteration
+Iter: 150, @nodes [1, 2, 3] => leader: 3, term: 156
+  Interface s3-eth3 goes down for 5 sec
+  Interface s3-eth3 goes up and wait for 5 sec before next iteration
+Iter: 151, @nodes [1, 2, 3] => leader: 2, term: 157
+  Interface s2-eth3 goes down for 5 sec
+  Interface s2-eth3 goes up and wait for 5 sec before next iteration
+Iter: 152, @nodes [1, 2, 3] => leader: 1, term: 158
+  Node 1 goes down for 5 sec
+  Node 1 goes up and wait for 5 sec before next iteration
+Iter: 153, @nodes [1, 2, 3] => leader: 3, term: 159
+  Node 3 goes down for 5 sec
+  Node 3 goes up and wait for 5 sec before next iteration
+Iter: 154, @nodes [1, 2, 3] => leader: 2, term: 160
+  Node 2 goes down for 5 sec
+  Node 2 goes up and wait for 5 sec before next iteration
+Iter: 155, @nodes [1, 2, 3] => leader: 1, term: 161
+  Node 1 goes down for 5 sec
+  Node 1 goes up and wait for 5 sec before next iteration
+Iter: 156, @nodes [1, 2, 3] => leader: 3, term: 162
+  Node 3 goes down for 5 sec
+  Node 3 goes up and wait for 5 sec before next iteration
+Iter: 157, @nodes [1, 2, 3] => leader: 2, term: 163
+  Interface s2-eth3 goes down for 5 sec
+  Interface s2-eth3 goes up and wait for 5 sec before next iteration
+Iter: 158, @nodes [1, 2, 3] => leader: 1, term: 164
+  Interface s1-eth3 goes down for 5 sec
+  Interface s1-eth3 goes up and wait for 5 sec before next iteration
+Iter: 159, @nodes [1, 2, 3] => leader: 3, term: 165
+  Node 3 goes down for 5 sec
+  Node 3 goes up and wait for 5 sec before next iteration
+Iter: 160, @nodes [1, 2, 3] => leader: 2, term: 166
+  Interface s2-eth2 goes down for 5 sec
+  Interface s2-eth2 goes up and wait for 5 sec before next iteration
+Iter: 161, @nodes [1, 2, 3] => leader: 3, term: 167
+  Interface s3-eth2 goes down for 5 sec
+  Interface s3-eth2 goes up and wait for 5 sec before next iteration
+Iter: 162, @nodes [1, 2, 3] => leader: 1, term: 168
+  Node 1 goes down for 5 sec
+  Node 1 goes up and wait for 5 sec before next iteration
+Iter: 163, @nodes [1, 2, 3] => leader: 2, term: 169
+  Node 2 goes down for 5 sec
+  Node 2 goes up and wait for 5 sec before next iteration
+Iter: 164, @nodes [1, 2, 3] => leader: 3, term: 170
+  Node 3 goes down for 5 sec
+  Node 3 goes up and wait for 5 sec before next iteration
+Iter: 165, @nodes [1, 2, 3] => leader: 1, term: 171
+  Node 1 goes down for 5 sec
+  Node 1 goes up and wait for 5 sec before next iteration
+Iter: 166, @nodes [1, 2, 3] => leader: 3, term: 172
+  Node 3 goes down for 5 sec
+  Node 3 goes up and wait for 5 sec before next iteration
+Iter: 167, @nodes [1, 2, 3] => leader: 1, term: 173
+  Node 1 goes down for 5 sec
+  Node 1 goes up and wait for 5 sec before next iteration
+Iter: 168, @nodes [1, 2, 3] => leader: 3, term: 174
+  Node 3 goes down for 5 sec
+  Node 3 goes up and wait for 5 sec before next iteration
+Iter: 169, @nodes [1, 2, 3] => leader: 1, term: 175
+  Interface s1-eth3 goes down for 5 sec
+  Interface s1-eth3 goes up and wait for 5 sec before next iteration
+Iter: 170, @nodes [1, 2, 3] => leader: 3, term: 176
+  Interface s3-eth3 goes down for 5 sec
+  Interface s3-eth3 goes up and wait for 5 sec before next iteration
+Iter: 171, @nodes [1, 2, 3] => leader: 2, term: 177
+  Node 2 goes down for 5 sec
+  Node 2 goes up and wait for 5 sec before next iteration
+Iter: 172, @nodes [1, 2, 3] => leader: 1, term: 178
+  Interface s1-eth3 goes down for 5 sec
+  Interface s1-eth3 goes up and wait for 5 sec before next iteration
+Iter: 173, @nodes [1, 2, 3] => leader: 3, term: 179
+  Interface s3-eth2 goes down for 5 sec
+  Interface s3-eth2 goes up and wait for 5 sec before next iteration
+Iter: 174, @nodes [1, 2, 3] => leader: 1, term: 180
+  Interface s1-eth2 goes down for 5 sec
+  Interface s1-eth2 goes up and wait for 5 sec before next iteration
+Iter: 175, @nodes [1, 2, 3] => leader: 2, term: 181
+  Interface s2-eth2 goes down for 5 sec
+  Interface s2-eth2 goes up and wait for 5 sec before next iteration
+Iter: 176, @nodes [1, 2, 3] => leader: 3, term: 182
+  Interface s3-eth2 goes down for 5 sec
+  Interface s3-eth2 goes up and wait for 5 sec before next iteration
+Iter: 177, @nodes [1, 2, 3] => leader: 1, term: 183
+  Node 1 goes down for 5 sec
+  Node 1 goes up and wait for 5 sec before next iteration
+Iter: 178, @nodes [1, 2, 3] => leader: 3, term: 184
+  Node 3 goes down for 5 sec
+  Node 3 goes up and wait for 5 sec before next iteration
+Iter: 179, @nodes [1, 2, 3] => leader: 1, term: 185
+  Interface s1-eth3 goes down for 5 sec
+  Interface s1-eth3 goes up and wait for 5 sec before next iteration
+Iter: 180, @nodes [1, 2, 3] => leader: 3, term: 186
+  Node 3 goes down for 5 sec
+  Node 3 goes up and wait for 5 sec before next iteration
+Iter: 181, @nodes [1, 2, 3] => leader: 1, term: 187
+  Node 1 goes down for 5 sec
+  Node 1 goes up and wait for 5 sec before next iteration
+Iter: 182, @nodes [1, 2, 3] => leader: 3, term: 188
+  Interface s3-eth3 goes down for 5 sec
+  Interface s3-eth3 goes up and wait for 5 sec before next iteration
+Iter: 183, @nodes [1, 2, 3] => leader: 2, term: 189
+  Node 2 goes down for 5 sec
+  Node 2 goes up and wait for 5 sec before next iteration
+Iter: 184, @nodes [1, 2, 3] => leader: 1, term: 190
+  Interface s1-eth2 goes down for 5 sec
+  Interface s1-eth2 goes up and wait for 5 sec before next iteration
+Iter: 185, @nodes [1, 2, 3] => leader: 2, term: 191
+  Node 2 goes down for 5 sec
+  Node 2 goes up and wait for 5 sec before next iteration
+Iter: 186, @nodes [1, 2, 3] => leader: 3, term: 192
+  Interface s3-eth3 goes down for 5 sec
+  Interface s3-eth3 goes up and wait for 5 sec before next iteration
+Iter: 187, @nodes [1, 2, 3] => leader: 2, term: 193
+  Node 2 goes down for 5 sec
+  Node 2 goes up and wait for 5 sec before next iteration
+Iter: 188, @nodes [1, 2, 3] => leader: 3, term: 194
+  Node 3 goes down for 5 sec
+  Node 3 goes up and wait for 5 sec before next iteration
+Iter: 189, @nodes [1, 2, 3] => leader: 2, term: 195
+  Node 2 goes down for 5 sec
+  Node 2 goes up and wait for 5 sec before next iteration
+Iter: 190, @nodes [1, 2, 3] => leader: 3, term: 196
+  Node 3 goes down for 5 sec
+  Node 3 goes up and wait for 5 sec before next iteration
+Iter: 191, @nodes [1, 2, 3] => leader: 1, term: 197
+  Node 1 goes down for 5 sec
+  Node 1 goes up and wait for 5 sec before next iteration
+Iter: 192, @nodes [1, 2, 3] => leader: 3, term: 198
+  Interface s3-eth2 goes down for 5 sec
+  Interface s3-eth2 goes up and wait for 5 sec before next iteration
+Iter: 193, @nodes [1, 2, 3] => leader: 1, term: 199
+  Node 1 goes down for 5 sec
+  Node 1 goes up and wait for 5 sec before next iteration
+Iter: 194, @nodes [1, 2, 3] => leader: 2, term: 200
+  Interface s2-eth3 goes down for 5 sec
+  Interface s2-eth3 goes up and wait for 5 sec before next iteration
+Iter: 195, @nodes [1, 2, 3] => leader: 1, term: 201
+  Interface s1-eth2 goes down for 5 sec
+  Interface s1-eth2 goes up and wait for 5 sec before next iteration
+Iter: 196, @nodes [1, 2, 3] => leader: 2, term: 202
+  Node 2 goes down for 5 sec
+  Node 2 goes up and wait for 5 sec before next iteration
+Iter: 197, @nodes [1, 2, 3] => leader: 1, term: 203
+  Node 1 goes down for 5 sec
+  Node 1 goes up and wait for 5 sec before next iteration
+Iter: 198, @nodes [1, 2, 3] => leader: 3, term: 204
+  Interface s3-eth3 goes down for 5 sec
+  Interface s3-eth3 goes up and wait for 5 sec before next iteration
+Iter: 199, @nodes [1, 2, 3] => leader: 2, term: 205
+  Node 2 goes down for 5 sec
+  Node 2 goes up and wait for 5 sec before next iteration
+Iter: 200, @nodes [1, 2, 3] => leader: 3, term: 206
+  Interface s3-eth3 goes down for 5 sec
+  Interface s3-eth3 goes up and wait for 5 sec before next iteration
+Iter: 201, @nodes [1, 2, 3] => leader: 2, term: 207
+  Interface s2-eth3 goes down for 5 sec
+  Interface s2-eth3 goes up and wait for 5 sec before next iteration
+Iter: 202, @nodes [1, 2, 3] => leader: 1, term: 208
+  Interface s1-eth2 goes down for 5 sec
+  Interface s1-eth2 goes up and wait for 5 sec before next iteration
+Iter: 203, @nodes [1, 2, 3] => leader: 2, term: 209
+  Interface s2-eth2 goes down for 5 sec
+  Interface s2-eth2 goes up and wait for 5 sec before next iteration
+Iter: 204, @nodes [1, 2, 3] => leader: 3, term: 210
+  Interface s3-eth3 goes down for 5 sec
+  Interface s3-eth3 goes up and wait for 5 sec before next iteration
+Iter: 205, @nodes [1, 2, 3] => leader: 2, term: 211
+  Interface s2-eth2 goes down for 5 sec
+  Interface s2-eth2 goes up and wait for 5 sec before next iteration
+Iter: 206, @nodes [1, 2, 3] => leader: 3, term: 212
+  Node 3 goes down for 5 sec
+  Node 3 goes up and wait for 5 sec before next iteration
+Iter: 207, @nodes [1, 2, 3] => leader: 1, term: 213
+  Node 1 goes down for 5 sec
+  Node 1 goes up and wait for 5 sec before next iteration
+Iter: 208, @nodes [1, 2, 3] => leader: 3, term: 214
+  Node 3 goes down for 5 sec
+  Node 3 goes up and wait for 5 sec before next iteration
+Iter: 209, @nodes [1, 2, 3] => leader: 2, term: 215
+  Node 2 goes down for 5 sec
+  Node 2 goes up and wait for 5 sec before next iteration
+Iter: 210, @nodes [1, 2, 3] => leader: 3, term: 216
+  Node 3 goes down for 5 sec
+  Node 3 goes up and wait for 5 sec before next iteration
+Iter: 211, @nodes [1, 2, 3] => leader: 2, term: 217
+  Node 2 goes down for 5 sec
+  Node 2 goes up and wait for 5 sec before next iteration
+Iter: 212, @nodes [1, 2, 3] => leader: 1, term: 218
+  Node 1 goes down for 5 sec
+  Node 1 goes up and wait for 5 sec before next iteration
+Iter: 213, @nodes [1, 2, 3] => leader: 2, term: 219
+  Node 2 goes down for 5 sec
+  Node 2 goes up and wait for 5 sec before next iteration
+Iter: 214, @nodes [1, 2, 3] => leader: 3, term: 220
+  Interface s3-eth2 goes down for 5 sec
+  Interface s3-eth2 goes up and wait for 5 sec before next iteration
+Iter: 215, @nodes [1, 2, 3] => leader: 1, term: 221
+  Node 1 goes down for 5 sec
+  Node 1 goes up and wait for 5 sec before next iteration
+Iter: 216, @nodes [1, 2, 3] => leader: 3, term: 223
+  Node 3 goes down for 5 sec
+  Node 3 goes up and wait for 5 sec before next iteration
+Iter: 217, @nodes [1, 2, 3] => leader: 1, term: 224
+  Node 1 goes down for 5 sec
+  Node 1 goes up and wait for 5 sec before next iteration
+Iter: 218, @nodes [1, 2, 3] => leader: 3, term: 225
+  Node 3 goes down for 5 sec
+  Node 3 goes up and wait for 5 sec before next iteration
+Iter: 219, @nodes [1, 2, 3] => leader: 2, term: 226
+  Interface s2-eth3 goes down for 5 sec
+  Interface s2-eth3 goes up and wait for 5 sec before next iteration
+Iter: 220, @nodes [1, 2, 3] => leader: 1, term: 227
+  Node 1 goes down for 5 sec
+  Node 1 goes up and wait for 5 sec before next iteration
+Iter: 221, @nodes [1, 2, 3] => leader: 3, term: 228
+  Interface s3-eth2 goes down for 5 sec
+  Interface s3-eth2 goes up and wait for 5 sec before next iteration
+Iter: 222, @nodes [1, 2, 3] => leader: 1, term: 229
+  Interface s1-eth3 goes down for 5 sec
+  Interface s1-eth3 goes up and wait for 5 sec before next iteration
+Iter: 223, @nodes [1, 2, 3] => leader: 3, term: 230
+  Interface s3-eth2 goes down for 5 sec
+  Interface s3-eth2 goes up and wait for 5 sec before next iteration
+Iter: 224, @nodes [1, 2, 3] => leader: 1, term: 231
+  Node 1 goes down for 5 sec
+  Node 1 goes up and wait for 5 sec before next iteration
+Iter: 225, @nodes [1, 2, 3] => leader: 3, term: 232
+  Interface s3-eth3 goes down for 5 sec
+  Interface s3-eth3 goes up and wait for 5 sec before next iteration
+Iter: 226, @nodes [1, 2, 3] => leader: 2, term: 233
+  Interface s2-eth2 goes down for 5 sec
+  Interface s2-eth2 goes up and wait for 5 sec before next iteration
+Iter: 227, @nodes [1, 2, 3] => leader: 3, term: 234
+  Node 3 goes down for 5 sec
+  Node 3 goes up and wait for 5 sec before next iteration
+Iter: 228, @nodes [1, 2, 3] => leader: 2, term: 236
+  Node 2 goes down for 5 sec
+  Node 2 goes up and wait for 5 sec before next iteration
+Iter: 229, @nodes [1, 2, 3] => leader: 3, term: 237
+  Interface s3-eth2 goes down for 5 sec
+  Interface s3-eth2 goes up and wait for 5 sec before next iteration
+Iter: 230, @nodes [1, 2, 3] => leader: 1, term: 238
+  Interface s1-eth3 goes down for 5 sec
+  Interface s1-eth3 goes up and wait for 5 sec before next iteration
+Iter: 231, @nodes [1, 2, 3] => leader: 3, term: 239
+  Interface s3-eth2 goes down for 5 sec
+  Interface s3-eth2 goes up and wait for 5 sec before next iteration
+Iter: 232, @nodes [1, 2, 3] => leader: 1, term: 240
+  Node 1 goes down for 5 sec
+  Node 1 goes up and wait for 5 sec before next iteration
+Iter: 233, @nodes [1, 2, 3] => leader: 3, term: 241
+  Interface s3-eth2 goes down for 5 sec
+  Interface s3-eth2 goes up and wait for 5 sec before next iteration
+Iter: 234, @nodes [1, 2, 3] => leader: 1, term: 242
+  Interface s1-eth2 goes down for 5 sec
+  Interface s1-eth2 goes up and wait for 5 sec before next iteration
+Iter: 235, @nodes [1, 2, 3] => leader: 2, term: 243
+  Interface s2-eth3 goes down for 5 sec
+  Interface s2-eth3 goes up and wait for 5 sec before next iteration
+Iter: 236, @nodes [1, 2, 3] => leader: 1, term: 244
+  Interface s1-eth2 goes down for 5 sec
+  Interface s1-eth2 goes up and wait for 5 sec before next iteration
+Iter: 237, @nodes [1, 2, 3] => leader: 2, term: 245
+  Node 2 goes down for 5 sec
+  Node 2 goes up and wait for 5 sec before next iteration
+Iter: 238, @nodes [1, 2, 3] => leader: 1, term: 246
+  Interface s1-eth2 goes down for 5 sec
+  Interface s1-eth2 goes up and wait for 5 sec before next iteration
+Iter: 239, @nodes [1, 2, 3] => leader: 2, term: 247
+  Node 2 goes down for 5 sec
+  Node 2 goes up and wait for 5 sec before next iteration
+Iter: 240, @nodes [1, 2, 3] => leader: 3, term: 248
+  Interface s3-eth2 goes down for 5 sec
+  Interface s3-eth2 goes up and wait for 5 sec before next iteration
+Iter: 241, @nodes [1, 2, 3] => leader: 1, term: 249
+  Node 1 goes down for 5 sec
+  Node 1 goes up and wait for 5 sec before next iteration
+Iter: 242, @nodes [1, 2, 3] => leader: 2, term: 251
+  Interface s2-eth3 goes down for 5 sec
+  Interface s2-eth3 goes up and wait for 5 sec before next iteration
+Iter: 243, @nodes [1, 2, 3] => leader: 1, term: 252
+  Interface s1-eth2 goes down for 5 sec
+  Interface s1-eth2 goes up and wait for 5 sec before next iteration
+Iter: 244, @nodes [1, 2, 3] => leader: 2, term: 253
+  Interface s2-eth3 goes down for 5 sec
+  Interface s2-eth3 goes up and wait for 5 sec before next iteration
+Iter: 245, @nodes [1, 2, 3] => leader: 1, term: 254
+  Node 1 goes down for 5 sec
+  Node 1 goes up and wait for 5 sec before next iteration
+Iter: 246, @nodes [1, 2, 3] => leader: 3, term: 255
+  Node 3 goes down for 5 sec
+  Node 3 goes up and wait for 5 sec before next iteration
+Iter: 247, @nodes [1, 2, 3] => leader: 1, term: 256
+  Interface s1-eth2 goes down for 5 sec
+  Interface s1-eth2 goes up and wait for 5 sec before next iteration
+Iter: 248, @nodes [1, 2, 3] => leader: 2, term: 257
+  Node 2 goes down for 5 sec
+  Node 2 goes up and wait for 5 sec before next iteration
+Iter: 249, @nodes [1, 2, 3] => leader: 3, term: 258
+  Node 3 goes down for 5 sec
+  Node 3 goes up and wait for 5 sec before next iteration
+Iter: 250, @nodes [1, 2, 3] => leader: 1, term: 259
+  Node 1 goes down for 5 sec
+  Node 1 goes up and wait for 5 sec before next iteration
+Iter: 251, @nodes [1, 2, 3] => leader: 3, term: 260
+  Node 3 goes down for 5 sec
+  Node 3 goes up and wait for 5 sec before next iteration
+Iter: 252, @nodes [1, 2, 3] => leader: 1, term: 261
+  Node 1 goes down for 5 sec
+  Node 1 goes up and wait for 5 sec before next iteration
+Iter: 253, @nodes [1, 2, 3] => leader: 2, term: 262
+  Node 2 goes down for 5 sec
+  Node 2 goes up and wait for 5 sec before next iteration
+Iter: 254, @nodes [1, 2, 3] => leader: 3, term: 263
+  Interface s3-eth2 goes down for 5 sec
+  Interface s3-eth2 goes up and wait for 5 sec before next iteration
+Iter: 255, @nodes [1, 2, 3] => leader: 1, term: 264
+  Interface s1-eth3 goes down for 5 sec
+  Interface s1-eth3 goes up and wait for 5 sec before next iteration
+Iter: 256, @nodes [1, 2, 3] => leader: 3, term: 265
+  Node 3 goes down for 5 sec
+  Node 3 goes up and wait for 5 sec before next iteration
+Iter: 257, @nodes [1, 2, 3] => leader: 1, term: 266
+  Interface s1-eth3 goes down for 5 sec
+  Interface s1-eth3 goes up and wait for 5 sec before next iteration
+Iter: 258, @nodes [1, 2, 3] => leader: 3, term: 267
+  Interface s3-eth2 goes down for 5 sec
+  Interface s3-eth2 goes up and wait for 5 sec before next iteration
+Iter: 259, @nodes [1, 2, 3] => leader: 1, term: 268
+  Node 1 goes down for 5 sec
+  Node 1 goes up and wait for 5 sec before next iteration
+Iter: 260, @nodes [1, 2, 3] => leader: 3, term: 269
+  Interface s3-eth3 goes down for 5 sec
+  Interface s3-eth3 goes up and wait for 5 sec before next iteration
+Iter: 261, @nodes [1, 2, 3] => leader: 2, term: 270
+  Node 2 goes down for 5 sec
+  Node 2 goes up and wait for 5 sec before next iteration
+Iter: 262, @nodes [1, 2, 3] => leader: 3, term: 271
+  Interface s3-eth3 goes down for 5 sec
+  Interface s3-eth3 goes up and wait for 5 sec before next iteration
+Iter: 263, @nodes [1, 2, 3] => leader: 2, term: 272
+  Node 2 goes down for 5 sec
+  Node 2 goes up and wait for 5 sec before next iteration
+Iter: 264, @nodes [1, 2, 3] => leader: 1, term: 273
+  Node 1 goes down for 5 sec
+  Node 1 goes up and wait for 5 sec before next iteration
+Iter: 265, @nodes [1, 2, 3] => leader: 2, term: 274
+  Interface s2-eth3 goes down for 5 sec
+  Interface s2-eth3 goes up and wait for 5 sec before next iteration
+Iter: 266, @nodes [1, 2, 3] => leader: 1, term: 275
+  Interface s1-eth2 goes down for 5 sec
+  Interface s1-eth2 goes up and wait for 5 sec before next iteration
+Iter: 267, @nodes [1, 2, 3] => leader: 2, term: 276
+  Node 2 goes down for 5 sec
+  Node 2 goes up and wait for 5 sec before next iteration
+Iter: 268, @nodes [1, 2, 3] => leader: 3, term: 277
+  Interface s3-eth2 goes down for 5 sec
+  Interface s3-eth2 goes up and wait for 5 sec before next iteration
+Iter: 269, @nodes [1, 2, 3] => leader: 1, term: 278
+  Node 1 goes down for 5 sec
+  Node 1 goes up and wait for 5 sec before next iteration
+Iter: 270, @nodes [1, 2, 3] => leader: 3, term: 280
+  Interface s3-eth2 goes down for 5 sec
+  Interface s3-eth2 goes up and wait for 5 sec before next iteration
+Iter: 271, @nodes [1, 2, 3] => leader: 1, term: 281
+  Node 1 goes down for 5 sec
+  Node 1 goes up and wait for 5 sec before next iteration
+Iter: 272, @nodes [1, 2, 3] => leader: 2, term: 282
+  Interface s2-eth3 goes down for 5 sec
+  Interface s2-eth3 goes up and wait for 5 sec before next iteration
+Iter: 273, @nodes [1, 2, 3] => leader: 1, term: 283
+  Interface s1-eth2 goes down for 5 sec
+  Interface s1-eth2 goes up and wait for 5 sec before next iteration
+Iter: 274, @nodes [1, 2, 3] => leader: 2, term: 284
+  Interface s2-eth3 goes down for 5 sec
+  Interface s2-eth3 goes up and wait for 5 sec before next iteration
+Iter: 275, @nodes [1, 2, 3] => leader: 1, term: 285
+  Node 1 goes down for 5 sec
+  Node 1 goes up and wait for 5 sec before next iteration
+Iter: 276, @nodes [1, 2, 3] => leader: 3, term: 286
+  Interface s3-eth2 goes down for 5 sec
+  Interface s3-eth2 goes up and wait for 5 sec before next iteration
+Iter: 277, @nodes [1, 2, 3] => leader: 1, term: 287
+  Interface s1-eth3 goes down for 5 sec
+  Interface s1-eth3 goes up and wait for 5 sec before next iteration
+Iter: 278, @nodes [1, 2, 3] => leader: 3, term: 288
+  Interface s3-eth2 goes down for 5 sec
+  Interface s3-eth2 goes up and wait for 5 sec before next iteration
+Iter: 279, @nodes [1, 2, 3] => leader: 1, term: 289
+  Interface s1-eth3 goes down for 5 sec
+  Interface s1-eth3 goes up and wait for 5 sec before next iteration
+Iter: 280, @nodes [1, 2, 3] => leader: 3, term: 290
+  Interface s3-eth2 goes down for 5 sec
+  Interface s3-eth2 goes up and wait for 5 sec before next iteration
+Iter: 281, @nodes [1, 2, 3] => leader: 1, term: 291
+  Interface s1-eth2 goes down for 5 sec
+  Interface s1-eth2 goes up and wait for 5 sec before next iteration
+Iter: 282, @nodes [1, 2, 3] => leader: 2, term: 292
+  Interface s2-eth2 goes down for 5 sec
+  Interface s2-eth2 goes up and wait for 5 sec before next iteration
+Iter: 283, @nodes [1, 2, 3] => leader: 3, term: 293
+  Interface s3-eth2 goes down for 5 sec
+  Interface s3-eth2 goes up and wait for 5 sec before next iteration
+Iter: 284, @nodes [1, 2, 3] => leader: 1, term: 294
+  Node 1 goes down for 5 sec
+  Node 1 goes up and wait for 5 sec before next iteration
+Iter: 285, @nodes [1, 2, 3] => leader: 3, term: 295
+  Interface s3-eth3 goes down for 5 sec
+  Interface s3-eth3 goes up and wait for 5 sec before next iteration
+Iter: 286, @nodes [1, 2, 3] => leader: 2, term: 296
+  Node 2 goes down for 5 sec
+  Node 2 goes up and wait for 5 sec before next iteration
+Iter: 287, @nodes [1, 2, 3] => leader: 3, term: 297
+  Node 3 goes down for 5 sec
+  Node 3 goes up and wait for 5 sec before next iteration
+Iter: 288, @nodes [1, 2, 3] => leader: 2, term: 298
+  Interface s2-eth3 goes down for 5 sec
+  Interface s2-eth3 goes up and wait for 5 sec before next iteration
+Iter: 289, @nodes [1, 2, 3] => leader: 1, term: 299
+  Node 1 goes down for 5 sec
+  Node 1 goes up and wait for 5 sec before next iteration
+Iter: 290, @nodes [1, 2, 3] => leader: 3, term: 300
+  Node 3 goes down for 5 sec
+  Node 3 goes up and wait for 5 sec before next iteration
+Iter: 291, @nodes [1, 2, 3] => leader: 1, term: 301
+  Node 1 goes down for 5 sec
+  Node 1 goes up and wait for 5 sec before next iteration
+Iter: 292, @nodes [1, 2, 3] => leader: 2, term: 302
+  Node 2 goes down for 5 sec
+  Node 2 goes up and wait for 5 sec before next iteration
+Iter: 293, @nodes [1, 2, 3] => leader: 3, term: 303
+  Interface s3-eth2 goes down for 5 sec
+  Interface s3-eth2 goes up and wait for 5 sec before next iteration
+Iter: 294, @nodes [1, 2, 3] => leader: 1, term: 304
+  Node 1 goes down for 5 sec
+  Node 1 goes up and wait for 5 sec before next iteration
+Iter: 295, @nodes [1, 2, 3] => leader: 2, term: 305
+  Interface s2-eth3 goes down for 5 sec
+  Interface s2-eth3 goes up and wait for 5 sec before next iteration
+Iter: 296, @nodes [1, 2, 3] => leader: 1, term: 306
+  Node 1 goes down for 5 sec
+  Node 1 goes up and wait for 5 sec before next iteration
+Iter: 297, @nodes [1, 2, 3] => leader: 2, term: 308
+  Interface s2-eth2 goes down for 5 sec
+  Interface s2-eth2 goes up and wait for 5 sec before next iteration
+Iter: 298, @nodes [1, 2, 3] => leader: 3, term: 309
+  Node 3 goes down for 5 sec
+  Node 3 goes up and wait for 5 sec before next iteration
+Iter: 299, @nodes [1, 2, 3] => leader: 1, term: 310
+  Interface s1-eth2 goes down for 5 sec
+  Interface s1-eth2 goes up and wait for 5 sec before next iteration
+Iter: 300, @nodes [1, 2, 3] => leader: 2, term: 311
+  Interface s2-eth2 goes down for 5 sec
+  Interface s2-eth2 goes up and wait for 5 sec before next iteration
+Iter: 301, @nodes [1, 2, 3] => leader: 3, term: 312
+  Node 3 goes down for 5 sec
+  Node 3 goes up and wait for 5 sec before next iteration
+Iter: 302, @nodes [1, 2, 3] => leader: 2, term: 313
+  Node 2 goes down for 5 sec
+  Node 2 goes up and wait for 5 sec before next iteration
+Iter: 303, @nodes [1, 2, 3] => leader: 1, term: 314
+  Interface s1-eth2 goes down for 5 sec
+  Interface s1-eth2 goes up and wait for 5 sec before next iteration
+Iter: 304, @nodes [1, 2, 3] => leader: 2, term: 315
+  Interface s2-eth3 goes down for 5 sec
+  Interface s2-eth3 goes up and wait for 5 sec before next iteration
+Iter: 305, @nodes [1, 2, 3] => leader: 1, term: 316
+  Node 1 goes down for 5 sec
+  Node 1 goes up and wait for 5 sec before next iteration
+Iter: 306, @nodes [1, 2, 3] => leader: 2, term: 317
+  Node 2 goes down for 5 sec
+  Node 2 goes up and wait for 5 sec before next iteration
+Iter: 307, @nodes [1, 2, 3] => leader: 3, term: 318
+  Node 3 goes down for 5 sec
+  Node 3 goes up and wait for 5 sec before next iteration
+Iter: 308, @nodes [1, 2, 3] => leader: 2, term: 319
+  Node 2 goes down for 5 sec
+  Node 2 goes up and wait for 5 sec before next iteration
+Iter: 309, @nodes [1, 2, 3] => leader: 3, term: 320
+  Interface s3-eth3 goes down for 5 sec
+  Interface s3-eth3 goes up and wait for 5 sec before next iteration
+Iter: 310, @nodes [1, 2, 3] => leader: 2, term: 321
+  Node 2 goes down for 5 sec
+  Node 2 goes up and wait for 5 sec before next iteration
+Iter: 311, @nodes [1, 2, 3] => leader: 3, term: 322
+  Node 3 goes down for 5 sec
+  Node 3 goes up and wait for 5 sec before next iteration
+Iter: 312, @nodes [1, 2, 3] => leader: 1, term: 323
+  Interface s1-eth2 goes down for 5 sec
+  Interface s1-eth2 goes up and wait for 5 sec before next iteration
+Iter: 313, @nodes [1, 2, 3] => leader: 2, term: 324
+  Interface s2-eth3 goes down for 5 sec
+  Interface s2-eth3 goes up and wait for 5 sec before next iteration
+Iter: 314, @nodes [1, 2, 3] => leader: 1, term: 325
+  Node 1 goes down for 5 sec
+  Node 1 goes up and wait for 5 sec before next iteration
+Iter: 315, @nodes [1, 2, 3] => leader: 2, term: 327
+  Interface s2-eth2 goes down for 5 sec
+  Interface s2-eth2 goes up and wait for 5 sec before next iteration
+Iter: 316, @nodes [1, 2, 3] => leader: 3, term: 328
+  Node 3 goes down for 5 sec
+  Node 3 goes up and wait for 5 sec before next iteration
+Iter: 317, @nodes [1, 2, 3] => leader: 2, term: 329
+  Interface s2-eth2 goes down for 5 sec
+  Interface s2-eth2 goes up and wait for 5 sec before next iteration
+Iter: 318, @nodes [1, 2, 3] => leader: 3, term: 330
+  Interface s3-eth3 goes down for 5 sec
+  Interface s3-eth3 goes up and wait for 5 sec before next iteration
+Iter: 319, @nodes [1, 2, 3] => leader: 2, term: 331
+  Interface s2-eth2 goes down for 5 sec
+  Interface s2-eth2 goes up and wait for 5 sec before next iteration
+Iter: 320, @nodes [1, 2, 3] => leader: 3, term: 332
+  Interface s3-eth3 goes down for 5 sec
+  Interface s3-eth3 goes up and wait for 5 sec before next iteration
+Iter: 321, @nodes [1, 2, 3] => leader: 2, term: 333
+  Node 2 goes down for 5 sec
+  Node 2 goes up and wait for 5 sec before next iteration
+Iter: 322, @nodes [1, 2, 3] => leader: 1, term: 336
+  Node 1 goes down for 5 sec
+  Node 1 goes up and wait for 5 sec before next iteration
+Iter: 323, @nodes [1, 2, 3] => leader: 3, term: 337
+  Node 3 goes down for 5 sec
+  Node 3 goes up and wait for 5 sec before next iteration
+Iter: 324, @nodes [1, 2, 3] => leader: 2, term: 338
+  Node 2 goes down for 5 sec
+  Node 2 goes up and wait for 5 sec before next iteration
+Iter: 325, @nodes [1, 2, 3] => leader: 3, term: 339
+  Node 3 goes down for 5 sec
+  Node 3 goes up and wait for 5 sec before next iteration
+Iter: 326, @nodes [1, 2, 3] => leader: 1, term: 340
+  Interface s1-eth3 goes down for 5 sec
+  Interface s1-eth3 goes up and wait for 5 sec before next iteration
+Iter: 327, @nodes [1, 2, 3] => leader: 3, term: 341
+  Node 3 goes down for 5 sec
+  Node 3 goes up and wait for 5 sec before next iteration
+Iter: 328, @nodes [1, 2, 3] => leader: 1, term: 342
+  Node 1 goes down for 5 sec
+  Node 1 goes up and wait for 5 sec before next iteration
+Iter: 329, @nodes [1, 2, 3] => leader: 3, term: 343
+  Node 3 goes down for 5 sec
+  Node 3 goes up and wait for 5 sec before next iteration
+Iter: 330, @nodes [1, 2, 3] => leader: 1, term: 344
+  Interface s1-eth2 goes down for 5 sec
+  Interface s1-eth2 goes up and wait for 5 sec before next iteration
+Iter: 331, @nodes [1, 2, 3] => leader: 2, term: 345
+  Node 2 goes down for 5 sec
+  Node 2 goes up and wait for 5 sec before next iteration
+Iter: 332, @nodes [1, 2, 3] => leader: 3, term: 346
+  Interface s3-eth3 goes down for 5 sec
+  Interface s3-eth3 goes up and wait for 5 sec before next iteration
+Iter: 333, @nodes [1, 2, 3] => leader: 2, term: 347
+  Interface s2-eth2 goes down for 5 sec
+  Interface s2-eth2 goes up and wait for 5 sec before next iteration
+Iter: 334, @nodes [1, 2, 3] => leader: 3, term: 348
+  Interface s3-eth3 goes down for 5 sec
+  Interface s3-eth3 goes up and wait for 5 sec before next iteration
+Iter: 335, @nodes [1, 2, 3] => leader: 2, term: 349
+  Node 2 goes down for 5 sec
+  Node 2 goes up and wait for 5 sec before next iteration
+Iter: 336, @nodes [1, 2, 3] => leader: 3, term: 350
+  Node 3 goes down for 5 sec
+  Node 3 goes up and wait for 5 sec before next iteration
+Iter: 337, @nodes [1, 2, 3] => leader: 1, term: 351
+  Interface s1-eth3 goes down for 5 sec
+  Interface s1-eth3 goes up and wait for 5 sec before next iteration
+Iter: 338, @nodes [1, 2, 3] => leader: 3, term: 352
+  Node 3 goes down for 5 sec
+  Node 3 goes up and wait for 5 sec before next iteration
+Iter: 339, @nodes [1, 2, 3] => leader: 2, term: 353
+  Interface s2-eth2 goes down for 5 sec
+  Interface s2-eth2 goes up and wait for 5 sec before next iteration
+Iter: 340, @nodes [1, 2, 3] => leader: 3, term: 354
+  Node 3 goes down for 5 sec
+  Node 3 goes up and wait for 5 sec before next iteration
+Iter: 341, @nodes [1, 2, 3] => leader: 1, term: 356
+  Interface s1-eth3 goes down for 5 sec
+  Interface s1-eth3 goes up and wait for 5 sec before next iteration
+Iter: 342, @nodes [1, 2, 3] => leader: 3, term: 357
+  Node 3 goes down for 5 sec
+  Node 3 goes up and wait for 5 sec before next iteration
+Iter: 343, @nodes [1, 2, 3] => leader: 2, term: 358
+  Node 2 goes down for 5 sec
+  Node 2 goes up and wait for 5 sec before next iteration
+Iter: 344, @nodes [1, 2, 3] => leader: 3, term: 359
+  Node 3 goes down for 5 sec
+  Node 3 goes up and wait for 5 sec before next iteration
+Iter: 345, @nodes [1, 2, 3] => leader: 1, term: 360
+  Node 1 goes down for 5 sec
+  Node 1 goes up and wait for 5 sec before next iteration
+Iter: 346, @nodes [1, 2, 3] => leader: 2, term: 361
+  Interface s2-eth2 goes down for 5 sec
+  Interface s2-eth2 goes up and wait for 5 sec before next iteration
+Iter: 347, @nodes [1, 2, 3] => leader: 3, term: 362
+  Interface s3-eth3 goes down for 5 sec
+  Interface s3-eth3 goes up and wait for 5 sec before next iteration
+Iter: 348, @nodes [1, 2, 3] => leader: 2, term: 363
+  Interface s2-eth2 goes down for 5 sec
+  Interface s2-eth2 goes up and wait for 5 sec before next iteration
+Iter: 349, @nodes [1, 2, 3] => leader: 3, term: 364
+  Node 3 goes down for 5 sec
+  Node 3 goes up and wait for 5 sec before next iteration
+Iter: 350, @nodes [1, 2, 3] => leader: 2, term: 365
+  Interface s2-eth3 goes down for 5 sec
+  Interface s2-eth3 goes up and wait for 5 sec before next iteration
+Iter: 351, @nodes [1, 2, 3] => leader: 1, term: 366
+  Interface s1-eth2 goes down for 5 sec
+  Interface s1-eth2 goes up and wait for 5 sec before next iteration
+Iter: 352, @nodes [1, 2, 3] => leader: 2, term: 367
+  Interface s2-eth3 goes down for 5 sec
+  Interface s2-eth3 goes up and wait for 5 sec before next iteration
+Iter: 353, @nodes [1, 2, 3] => leader: 1, term: 368
+  Interface s1-eth2 goes down for 5 sec
+  Interface s1-eth2 goes up and wait for 5 sec before next iteration
+Iter: 354, @nodes [1, 2, 3] => leader: 2, term: 369
+  Node 2 goes down for 5 sec
+  Node 2 goes up and wait for 5 sec before next iteration
+Iter: 355, @nodes [1, 2, 3] => leader: 1, term: 370
+  Interface s1-eth3 goes down for 5 sec
+  Interface s1-eth3 goes up and wait for 5 sec before next iteration
+Iter: 356, @nodes [1, 2, 3] => leader: 3, term: 371
+  Interface s3-eth3 goes down for 5 sec
+  Interface s3-eth3 goes up and wait for 5 sec before next iteration
+Iter: 357, @nodes [1, 2, 3] => leader: 2, term: 372
+  Node 2 goes down for 5 sec
+  Node 2 goes up and wait for 5 sec before next iteration
+Iter: 358, @nodes [1, 2, 3] => leader: 3, term: 373
+  Interface s3-eth3 goes down for 5 sec
+  Interface s3-eth3 goes up and wait for 5 sec before next iteration
+Iter: 359, @nodes [1, 2, 3] => leader: 2, term: 374
+  Node 2 goes down for 5 sec
+  Node 2 goes up and wait for 5 sec before next iteration
+Iter: 360, @nodes [1, 2, 3] => leader: 3, term: 375
+  Node 3 goes down for 5 sec
+  Node 3 goes up and wait for 5 sec before next iteration
+Iter: 361, @nodes [1, 2, 3] => leader: 1, term: 376
+  Node 1 goes down for 5 sec
+  Node 1 goes up and wait for 5 sec before next iteration
+Iter: 362, @nodes [1, 2, 3] => leader: 2, term: 377
+  Interface s2-eth3 goes down for 5 sec
+  Interface s2-eth3 goes up and wait for 5 sec before next iteration
+Iter: 363, @nodes [1, 2, 3] => leader: 1, term: 378
+  Node 1 goes down for 5 sec
+  Node 1 goes up and wait for 5 sec before next iteration
+Iter: 364, @nodes [1, 2, 3] => leader: 2, term: 379
+  Interface s2-eth3 goes down for 5 sec
+  Interface s2-eth3 goes up and wait for 5 sec before next iteration
+Iter: 365, @nodes [1, 2, 3] => leader: 1, term: 380
+  Interface s1-eth2 goes down for 5 sec
+  Interface s1-eth2 goes up and wait for 5 sec before next iteration
+Iter: 366, @nodes [1, 2, 3] => leader: 2, term: 381
+  Interface s2-eth3 goes down for 5 sec
+  Interface s2-eth3 goes up and wait for 5 sec before next iteration
+Iter: 367, @nodes [1, 2, 3] => leader: 1, term: 382
+  Interface s1-eth2 goes down for 5 sec
+  Interface s1-eth2 goes up and wait for 5 sec before next iteration
+Iter: 368, @nodes [1, 2, 3] => leader: 2, term: 383
+  Interface s2-eth2 goes down for 5 sec
+  Interface s2-eth2 goes up and wait for 5 sec before next iteration
+Iter: 369, @nodes [1, 2, 3] => leader: 3, term: 384
+  Interface s3-eth3 goes down for 5 sec
+  Interface s3-eth3 goes up and wait for 5 sec before next iteration
+Iter: 370, @nodes [1, 2, 3] => leader: 2, term: 385
+  Node 2 goes down for 5 sec
+  Node 2 goes up and wait for 5 sec before next iteration
+Iter: 371, @nodes [1, 2, 3] => leader: 1, term: 386
+  Node 1 goes down for 5 sec
+  Node 1 goes up and wait for 5 sec before next iteration
+Iter: 372, @nodes [1, 2, 3] => leader: 3, term: 387
+  Interface s3-eth2 goes down for 5 sec
+  Interface s3-eth2 goes up and wait for 5 sec before next iteration
+Iter: 373, @nodes [1, 2, 3] => leader: 1, term: 388
+  Node 1 goes down for 5 sec
+  Node 1 goes up and wait for 5 sec before next iteration
+Iter: 374, @nodes [1, 2, 3] => leader: 2, term: 389
+  Node 2 goes down for 5 sec
+  Node 2 goes up and wait for 5 sec before next iteration
+Iter: 375, @nodes [1, 2, 3] => leader: 3, term: 390
+  Node 3 goes down for 5 sec
+  Node 3 goes up and wait for 5 sec before next iteration
+Iter: 376, @nodes [1, 2, 3] => leader: 1, term: 391
+  Interface s1-eth2 goes down for 5 sec
+  Interface s1-eth2 goes up and wait for 5 sec before next iteration
+Iter: 377, @nodes [1, 2, 3] => leader: 2, term: 392
+  Node 2 goes down for 5 sec
+  Node 2 goes up and wait for 5 sec before next iteration
+Iter: 378, @nodes [1, 2, 3] => leader: 1, term: 393
+  Interface s1-eth3 goes down for 5 sec
+  Interface s1-eth3 goes up and wait for 5 sec before next iteration
+Iter: 379, @nodes [1, 2, 3] => leader: 3, term: 394
+  Interface s3-eth2 goes down for 5 sec
+  Interface s3-eth2 goes up and wait for 5 sec before next iteration
+Iter: 380, @nodes [1, 2, 3] => leader: 1, term: 395
+  Node 1 goes down for 5 sec
+  Node 1 goes up and wait for 5 sec before next iteration
+Iter: 381, @nodes [1, 2, 3] => leader: 2, term: 396
+  Interface s2-eth2 goes down for 5 sec
+  Interface s2-eth2 goes up and wait for 5 sec before next iteration
+Iter: 382, @nodes [1, 2, 3] => leader: 3, term: 397
+  Interface s3-eth3 goes down for 5 sec
+  Interface s3-eth3 goes up and wait for 5 sec before next iteration
+Iter: 383, @nodes [1, 2, 3] => leader: 2, term: 398
+  Interface s2-eth3 goes down for 5 sec
+  Interface s2-eth3 goes up and wait for 5 sec before next iteration
+Iter: 384, @nodes [1, 2, 3] => leader: 1, term: 399
+  Node 1 goes down for 5 sec
+  Node 1 goes up and wait for 5 sec before next iteration
+Iter: 385, @nodes [1, 2, 3] => leader: 3, term: 400
+  Interface s3-eth2 goes down for 5 sec
+  Interface s3-eth2 goes up and wait for 5 sec before next iteration
+Iter: 386, @nodes [1, 2, 3] => leader: 1, term: 401
+  Node 1 goes down for 5 sec
+  Node 1 goes up and wait for 5 sec before next iteration
+Iter: 387, @nodes [1, 2, 3] => leader: 2, term: 402
+  Node 2 goes down for 5 sec
+  Node 2 goes up and wait for 5 sec before next iteration
+Iter: 388, @nodes [1, 2, 3] => leader: 1, term: 403
+  Node 1 goes down for 5 sec
+  Node 1 goes up and wait for 5 sec before next iteration
+Iter: 389, @nodes [1, 2, 3] => leader: 2, term: 404
+  Interface s2-eth2 goes down for 5 sec
+  Interface s2-eth2 goes up and wait for 5 sec before next iteration
+Iter: 390, @nodes [1, 2, 3] => leader: 3, term: 405
+  Node 3 goes down for 5 sec
+  Node 3 goes up and wait for 5 sec before next iteration
+Iter: 391, @nodes [1, 2, 3] => leader: 2, term: 406
+  Node 2 goes down for 5 sec
+  Node 2 goes up and wait for 5 sec before next iteration
+Iter: 392, @nodes [1, 2, 3] => leader: 1, term: 407
+  Interface s1-eth3 goes down for 5 sec
+  Interface s1-eth3 goes up and wait for 5 sec before next iteration
+Iter: 393, @nodes [1, 2, 3] => leader: 3, term: 408
+  Node 3 goes down for 5 sec
+  Node 3 goes up and wait for 5 sec before next iteration
+Iter: 394, @nodes [1, 2, 3] => leader: 2, term: 409
+  Node 2 goes down for 5 sec
+  Node 2 goes up and wait for 5 sec before next iteration
+Iter: 395, @nodes [1, 2, 3] => leader: 1, term: 410
+  Node 1 goes down for 5 sec
+  Node 1 goes up and wait for 5 sec before next iteration
+Iter: 396, @nodes [1, 2, 3] => leader: 3, term: 411
+  Node 3 goes down for 5 sec
+  Node 3 goes up and wait for 5 sec before next iteration
+Iter: 397, @nodes [1, 2, 3] => leader: 1, term: 412
+  Interface s1-eth2 goes down for 5 sec
+  Interface s1-eth2 goes up and wait for 5 sec before next iteration
+Iter: 398, @nodes [1, 2, 3] => leader: 2, term: 413
+  Interface s2-eth3 goes down for 5 sec
+  Interface s2-eth3 goes up and wait for 5 sec before next iteration
+Iter: 399, @nodes [1, 2, 3] => leader: 1, term: 414
+  Interface s1-eth2 goes down for 5 sec
+  Interface s1-eth2 goes up and wait for 5 sec before next iteration
+Iter: 400, @nodes [1, 2, 3] => leader: 2, term: 415
+  Node 2 goes down for 5 sec
+  Node 2 goes up and wait for 5 sec before next iteration
+Iter: 401, @nodes [1, 2, 3] => leader: 1, term: 416
+  Node 1 goes down for 5 sec
+  Node 1 goes up and wait for 5 sec before next iteration
+Iter: 402, @nodes [1, 2, 3] => leader: 3, term: 417
+  Node 3 goes down for 5 sec
+  Node 3 goes up and wait for 5 sec before next iteration
+Iter: 403, @nodes [1, 2, 3] => leader: 1, term: 419
+  Node 1 goes down for 5 sec
+  Node 1 goes up and wait for 5 sec before next iteration
+Iter: 404, @nodes [1, 2, 3] => leader: 2, term: 420
+  Node 2 goes down for 5 sec
+  Node 2 goes up and wait for 5 sec before next iteration
+Iter: 405, @nodes [1, 2, 3] => leader: 3, term: 421
+  Node 3 goes down for 5 sec
+  Node 3 goes up and wait for 5 sec before next iteration
+Iter: 406, @nodes [1, 2, 3] => leader: 1, term: 423
+  Interface s1-eth3 goes down for 5 sec
+  Interface s1-eth3 goes up and wait for 5 sec before next iteration
+Iter: 407, @nodes [1, 2, 3] => leader: 3, term: 424
+  Node 3 goes down for 5 sec
+  Node 3 goes up and wait for 5 sec before next iteration
+Iter: 408, @nodes [1, 2, 3] => leader: 1, term: 425
+  Node 1 goes down for 5 sec
+  Node 1 goes up and wait for 5 sec before next iteration
+Iter: 409, @nodes [1, 2, 3] => leader: 2, term: 426
+  Interface s2-eth2 goes down for 5 sec
+  Interface s2-eth2 goes up and wait for 5 sec before next iteration
+Iter: 410, @nodes [1, 2, 3] => leader: 3, term: 427
+  Interface s3-eth2 goes down for 5 sec
+  Interface s3-eth2 goes up and wait for 5 sec before next iteration
+Iter: 411, @nodes [1, 2, 3] => leader: 1, term: 428
+  Interface s1-eth2 goes down for 5 sec
+  Interface s1-eth2 goes up and wait for 5 sec before next iteration
+Iter: 412, @nodes [1, 2, 3] => leader: 2, term: 429
+  Interface s2-eth2 goes down for 5 sec
+  Interface s2-eth2 goes up and wait for 5 sec before next iteration
+Iter: 413, @nodes [1, 2, 3] => leader: 3, term: 430
+  Interface s3-eth3 goes down for 5 sec
+  Interface s3-eth3 goes up and wait for 5 sec before next iteration
+Iter: 414, @nodes [1, 2, 3] => leader: 2, term: 431
+  Interface s2-eth3 goes down for 5 sec
+  Interface s2-eth3 goes up and wait for 5 sec before next iteration
+Iter: 415, @nodes [1, 2, 3] => leader: 1, term: 432
+  Node 1 goes down for 5 sec
+  Node 1 goes up and wait for 5 sec before next iteration
+Iter: 416, @nodes [1, 2, 3] => leader: 3, term: 433
+  Node 3 goes down for 5 sec
+  Node 3 goes up and wait for 5 sec before next iteration
+Iter: 417, @nodes [1, 2, 3] => leader: 2, term: 434
+  Interface s2-eth3 goes down for 5 sec
+  Interface s2-eth3 goes up and wait for 5 sec before next iteration
+Iter: 418, @nodes [1, 2, 3] => leader: 1, term: 435
+  Node 1 goes down for 5 sec
+  Node 1 goes up and wait for 5 sec before next iteration
+Iter: 419, @nodes [1, 2, 3] => leader: 2, term: 436
+  Interface s2-eth3 goes down for 5 sec
+  Interface s2-eth3 goes up and wait for 5 sec before next iteration
+Iter: 420, @nodes [1, 2, 3] => leader: 1, term: 437
+  Node 1 goes down for 5 sec
+  Node 1 goes up and wait for 5 sec before next iteration
+Iter: 421, @nodes [1, 2, 3] => leader: 3, term: 438
+  Interface s3-eth3 goes down for 5 sec
+  Interface s3-eth3 goes up and wait for 5 sec before next iteration
+Iter: 422, @nodes [1, 2, 3] => leader: 2, term: 439
+  Interface s2-eth3 goes down for 5 sec
+  Interface s2-eth3 goes up and wait for 5 sec before next iteration
+Iter: 423, @nodes [1, 2, 3] => leader: 1, term: 440
+  Interface s1-eth3 goes down for 5 sec
+  Interface s1-eth3 goes up and wait for 5 sec before next iteration
+Iter: 424, @nodes [1, 2, 3] => leader: 3, term: 441
+  Node 3 goes down for 5 sec
+  Node 3 goes up and wait for 5 sec before next iteration
+Iter: 425, @nodes [1, 2, 3] => leader: 2, term: 442
+  Interface s2-eth3 goes down for 5 sec
+  Interface s2-eth3 goes up and wait for 5 sec before next iteration
+Iter: 426, @nodes [1, 2, 3] => leader: 1, term: 443
+  Interface s1-eth3 goes down for 5 sec
+  Interface s1-eth3 goes up and wait for 5 sec before next iteration
+Iter: 427, @nodes [1, 2, 3] => leader: 3, term: 444
+  Interface s3-eth2 goes down for 5 sec
+  Interface s3-eth2 goes up and wait for 5 sec before next iteration
+Iter: 428, @nodes [1, 2, 3] => leader: 1, term: 445
+  Interface s1-eth2 goes down for 5 sec
+  Interface s1-eth2 goes up and wait for 5 sec before next iteration
+Iter: 429, @nodes [1, 2, 3] => leader: 2, term: 446
+  Node 2 goes down for 5 sec
+  Node 2 goes up and wait for 5 sec before next iteration
+Iter: 430, @nodes [1, 2, 3] => leader: 1, term: 447
+  Node 1 goes down for 5 sec
+  Node 1 goes up and wait for 5 sec before next iteration
+Iter: 431, @nodes [1, 2, 3] => leader: 2, term: 448
+  Interface s2-eth2 goes down for 5 sec
+  Interface s2-eth2 goes up and wait for 5 sec before next iteration
+Iter: 432, @nodes [1, 2, 3] => leader: 3, term: 449
+  Node 3 goes down for 5 sec
+  Node 3 goes up and wait for 5 sec before next iteration
+Iter: 433, @nodes [1, 2, 3] => leader: 2, term: 450
+  Node 2 goes down for 5 sec
+  Node 2 goes up and wait for 5 sec before next iteration
+Iter: 434, @nodes [1, 2, 3] => leader: 3, term: 451
+  Interface s3-eth3 goes down for 5 sec
+  Interface s3-eth3 goes up and wait for 5 sec before next iteration
+Iter: 435, @nodes [1, 2, 3] => leader: 2, term: 452
+  Node 2 goes down for 5 sec
+  Node 2 goes up and wait for 5 sec before next iteration
+Iter: 436, @nodes [1, 2, 3] => leader: 3, term: 453
+  Node 3 goes down for 5 sec
+  Node 3 goes up and wait for 5 sec before next iteration
+Iter: 437, @nodes [1, 2, 3] => leader: 1, term: 454
+  Interface s1-eth3 goes down for 5 sec
+  Interface s1-eth3 goes up and wait for 5 sec before next iteration
+Iter: 438, @nodes [1, 2, 3] => leader: 3, term: 455
+  Interface s3-eth2 goes down for 5 sec
+  Interface s3-eth2 goes up and wait for 5 sec before next iteration
+Iter: 439, @nodes [1, 2, 3] => leader: 1, term: 456
+  Node 1 goes down for 5 sec
+  Node 1 goes up and wait for 5 sec before next iteration
+Iter: 440, @nodes [1, 2, 3] => leader: 2, term: 457
+  Node 2 goes down for 5 sec
+  Node 2 goes up and wait for 5 sec before next iteration
+Iter: 441, @nodes [1, 2, 3] => leader: 1, term: 458
+  Node 1 goes down for 5 sec
+  Node 1 goes up and wait for 5 sec before next iteration
+Iter: 442, @nodes [1, 2, 3] => leader: 3, term: 459
+  Interface s3-eth3 goes down for 5 sec
+  Interface s3-eth3 goes up and wait for 5 sec before next iteration
+Iter: 443, @nodes [1, 2, 3] => leader: 2, term: 460
+  Interface s2-eth3 goes down for 5 sec
+  Interface s2-eth3 goes up and wait for 5 sec before next iteration
+Iter: 444, @nodes [1, 2, 3] => leader: 1, term: 461
+  Node 1 goes down for 5 sec
+  Node 1 goes up and wait for 5 sec before next iteration
+Iter: 445, @nodes [1, 2, 3] => leader: 3, term: 462
+  Node 3 goes down for 5 sec
+  Node 3 goes up and wait for 5 sec before next iteration
+Iter: 446, @nodes [1, 2, 3] => leader: 2, term: 463
+  Interface s2-eth3 goes down for 5 sec
+  Interface s2-eth3 goes up and wait for 5 sec before next iteration
+Iter: 447, @nodes [1, 2, 3] => leader: 1, term: 464
+  Node 1 goes down for 5 sec
+  Node 1 goes up and wait for 5 sec before next iteration
+Iter: 448, @nodes [1, 2, 3] => leader: 2, term: 465
+  Interface s2-eth2 goes down for 5 sec
+  Interface s2-eth2 goes up and wait for 5 sec before next iteration
+Iter: 449, @nodes [1, 2, 3] => leader: 3, term: 466
+  Node 3 goes down for 5 sec
+  Node 3 goes up and wait for 5 sec before next iteration
+Iter: 450, @nodes [1, 2, 3] => leader: 1, term: 467
+  Node 1 goes down for 5 sec
+  Node 1 goes up and wait for 5 sec before next iteration
+Iter: 451, @nodes [1, 2, 3] => leader: 3, term: 468
+  Node 3 goes down for 5 sec
+  Node 3 goes up and wait for 5 sec before next iteration
+Iter: 452, @nodes [1, 2, 3] => leader: 1, term: 469
+  Node 1 goes down for 5 sec
+  Node 1 goes up and wait for 5 sec before next iteration
+Iter: 453, @nodes [1, 2, 3] => leader: 2, term: 470
+  Node 2 goes down for 5 sec
+  Node 2 goes up and wait for 5 sec before next iteration
+Iter: 454, @nodes [1, 2, 3] => leader: 1, term: 471
+  Node 1 goes down for 5 sec
+  Node 1 goes up and wait for 5 sec before next iteration
+Iter: 455, @nodes [1, 2, 3] => leader: 3, term: 472
+  Node 3 goes down for 5 sec
+  Node 3 goes up and wait for 5 sec before next iteration
+Iter: 456, @nodes [1, 2, 3] => leader: 2, term: 473
+  Node 2 goes down for 5 sec
+  Node 2 goes up and wait for 5 sec before next iteration
+Iter: 457, @nodes [1, 2, 3] => leader: 1, term: 474
+  Interface s1-eth3 goes down for 5 sec
+  Interface s1-eth3 goes up and wait for 5 sec before next iteration
+Iter: 458, @nodes [1, 2, 3] => leader: 3, term: 475
+  Interface s3-eth2 goes down for 5 sec
+  Interface s3-eth2 goes up and wait for 5 sec before next iteration
+Iter: 459, @nodes [1, 2, 3] => leader: 1, term: 476
+  Node 1 goes down for 5 sec
+  Node 1 goes up and wait for 5 sec before next iteration
+Iter: 460, @nodes [1, 2, 3] => leader: 2, term: 477
+  Interface s2-eth2 goes down for 5 sec
+  Interface s2-eth2 goes up and wait for 5 sec before next iteration
+Iter: 461, @nodes [1, 2, 3] => leader: 3, term: 478
+  Interface s3-eth2 goes down for 5 sec
+  Interface s3-eth2 goes up and wait for 5 sec before next iteration
+Iter: 462, @nodes [1, 2, 3] => leader: 1, term: 479
+  Interface s1-eth2 goes down for 5 sec
+  Interface s1-eth2 goes up and wait for 5 sec before next iteration
+Iter: 463, @nodes [1, 2, 3] => leader: 2, term: 480
+  Node 2 goes down for 5 sec
+  Node 2 goes up and wait for 5 sec before next iteration
+Iter: 464, @nodes [1, 2, 3] => leader: 1, term: 481
+  Interface s1-eth3 goes down for 5 sec
+  Interface s1-eth3 goes up and wait for 5 sec before next iteration
+Iter: 465, @nodes [1, 2, 3] => leader: 3, term: 482
+  Node 3 goes down for 5 sec
+  Node 3 goes up and wait for 5 sec before next iteration
+Iter: 466, @nodes [1, 2, 3] => leader: 1, term: 483
+  Node 1 goes down for 5 sec
+  Node 1 goes up and wait for 5 sec before next iteration
+Iter: 467, @nodes [1, 2, 3] => leader: 2, term: 484
+  Node 2 goes down for 5 sec
+  Node 2 goes up and wait for 5 sec before next iteration
+Iter: 468, @nodes [1, 2, 3] => leader: 1, term: 485
+  Interface s1-eth3 goes down for 5 sec
+  Interface s1-eth3 goes up and wait for 5 sec before next iteration
+Iter: 469, @nodes [1, 2, 3] => leader: 3, term: 486
+  Node 3 goes down for 5 sec
+  Node 3 goes up and wait for 5 sec before next iteration
+Iter: 470, @nodes [1, 2, 3] => leader: 2, term: 487
+  Node 2 goes down for 5 sec
+  Node 2 goes up and wait for 5 sec before next iteration
+Iter: 471, @nodes [1, 2, 3] => leader: 3, term: 488
+  Node 3 goes down for 5 sec
+  Node 3 goes up and wait for 5 sec before next iteration
+Iter: 472, @nodes [1, 2, 3] => leader: 1, term: 489
+  Interface s1-eth3 goes down for 5 sec
+  Interface s1-eth3 goes up and wait for 5 sec before next iteration
+Iter: 473, @nodes [1, 2, 3] => leader: 3, term: 490
+  Node 3 goes down for 5 sec
+  Node 3 goes up and wait for 5 sec before next iteration
+Iter: 474, @nodes [1, 2, 3] => leader: 1, term: 491
+  Interface s1-eth3 goes down for 5 sec
+  Interface s1-eth3 goes up and wait for 5 sec before next iteration
+Iter: 475, @nodes [1, 2, 3] => leader: 3, term: 492
+  Interface s3-eth2 goes down for 5 sec
+  Interface s3-eth2 goes up and wait for 5 sec before next iteration
+Iter: 476, @nodes [1, 2, 3] => leader: 1, term: 493
+  Node 1 goes down for 5 sec
+  Node 1 goes up and wait for 5 sec before next iteration
+Iter: 477, @nodes [1, 2, 3] => leader: 2, term: 494
+  Interface s2-eth2 goes down for 5 sec
+  Interface s2-eth2 goes up and wait for 5 sec before next iteration
+Iter: 478, @nodes [1, 2, 3] => leader: 3, term: 495
+  Interface s3-eth2 goes down for 5 sec
+  Interface s3-eth2 goes up and wait for 5 sec before next iteration
+Iter: 479, @nodes [1, 2, 3] => leader: 1, term: 496
+  Node 1 goes down for 5 sec
+  Node 1 goes up and wait for 5 sec before next iteration
+Iter: 480, @nodes [1, 2, 3] => leader: 2, term: 497
+  Node 2 goes down for 5 sec
+  Node 2 goes up and wait for 5 sec before next iteration
+Iter: 481, @nodes [1, 2, 3] => leader: 3, term: 498
+  Node 3 goes down for 5 sec
+  Node 3 goes up and wait for 5 sec before next iteration
+Iter: 482, @nodes [1, 2, 3] => leader: 1, term: 499
+  Node 1 goes down for 5 sec
+  Node 1 goes up and wait for 5 sec before next iteration
+Iter: 483, @nodes [1, 2, 3] => leader: 3, term: 500
+  Interface s3-eth3 goes down for 5 sec
+  Interface s3-eth3 goes up and wait for 5 sec before next iteration
+Iter: 484, @nodes [1, 2, 3] => leader: 2, term: 501
+  Node 2 goes down for 5 sec
+  Node 2 goes up and wait for 5 sec before next iteration
+Iter: 485, @nodes [1, 2, 3] => leader: 1, term: 502
+  Node 1 goes down for 5 sec
+  Node 1 goes up and wait for 5 sec before next iteration
+Iter: 486, @nodes [1, 2, 3] => leader: 3, term: 503
+  Interface s3-eth2 goes down for 5 sec
+  Interface s3-eth2 goes up and wait for 5 sec before next iteration
+Iter: 487, @nodes [1, 2, 3] => leader: 1, term: 504
+  Node 1 goes down for 5 sec
+  Node 1 goes up and wait for 5 sec before next iteration
+Iter: 488, @nodes [1, 2, 3] => leader: 2, term: 505
+  Interface s2-eth2 goes down for 5 sec
+  Interface s2-eth2 goes up and wait for 5 sec before next iteration
+Iter: 489, @nodes [1, 2, 3] => leader: 3, term: 506
+  Node 3 goes down for 5 sec
+  Node 3 goes up and wait for 5 sec before next iteration
+Iter: 490, @nodes [1, 2, 3] => leader: 1, term: 507
+  Interface s1-eth3 goes down for 5 sec
+  Interface s1-eth3 goes up and wait for 5 sec before next iteration
+Iter: 491, @nodes [1, 2, 3] => leader: 3, term: 508
+  Interface s3-eth3 goes down for 5 sec
+  Interface s3-eth3 goes up and wait for 5 sec before next iteration
+Iter: 492, @nodes [1, 2, 3] => leader: 2, term: 509
+  Node 2 goes down for 5 sec
+  Node 2 goes up and wait for 5 sec before next iteration
+Iter: 493, @nodes [1, 2, 3] => leader: 1, term: 510
+  Interface s1-eth3 goes down for 5 sec
+  Interface s1-eth3 goes up and wait for 5 sec before next iteration
+Iter: 494, @nodes [1, 2, 3] => leader: 3, term: 511
+  Interface s3-eth2 goes down for 5 sec
+  Interface s3-eth2 goes up and wait for 5 sec before next iteration
+Iter: 495, @nodes [1, 2, 3] => leader: 1, term: 512
+  Node 1 goes down for 5 sec
+  Node 1 goes up and wait for 5 sec before next iteration
+Iter: 496, @nodes [1, 2, 3] => leader: 3, term: 513
+  Node 3 goes down for 5 sec
+  Node 3 goes up and wait for 5 sec before next iteration
+Iter: 497, @nodes [1, 2, 3] => leader: 2, term: 514
+  Node 2 goes down for 5 sec
+  Node 2 goes up and wait for 5 sec before next iteration
+Iter: 498, @nodes [1, 2, 3] => leader: 3, term: 515
+  Interface s3-eth2 goes down for 5 sec
+  Interface s3-eth2 goes up and wait for 5 sec before next iteration
+Iter: 499, @nodes [1, 2, 3] => leader: 1, term: 516
+  Interface s1-eth3 goes down for 5 sec
+  Interface s1-eth3 goes up and wait for 5 sec before next iteration
+Iter: 500, @nodes [1, 2, 3] => leader: 3, term: 517
+  Interface s3-eth2 goes down for 5 sec
+  Interface s3-eth2 goes up and wait for 5 sec before next iteration
+Iter: 501, @nodes [1, 2, 3] => leader: 1, term: 518
+  Interface s1-eth2 goes down for 5 sec
+  Interface s1-eth2 goes up and wait for 5 sec before next iteration
+Iter: 502, @nodes [1, 2, 3] => leader: 2, term: 519
+  Interface s2-eth3 goes down for 5 sec
+  Interface s2-eth3 goes up and wait for 5 sec before next iteration
+Iter: 503, @nodes [1, 2, 3] => leader: 1, term: 520
+  Interface s1-eth2 goes down for 5 sec
+  Interface s1-eth2 goes up and wait for 5 sec before next iteration
+Iter: 504, @nodes [1, 2, 3] => leader: 2, term: 521
+  Interface s2-eth2 goes down for 5 sec
+  Interface s2-eth2 goes up and wait for 5 sec before next iteration
+Iter: 505, @nodes [1, 2, 3] => leader: 3, term: 522
+  Interface s3-eth2 goes down for 5 sec
+  Interface s3-eth2 goes up and wait for 5 sec before next iteration
+Iter: 506, @nodes [1, 2, 3] => leader: 1, term: 523
+  Interface s1-eth2 goes down for 5 sec
+  Interface s1-eth2 goes up and wait for 5 sec before next iteration
+Iter: 507, @nodes [1, 2, 3] => leader: 2, term: 524
+  Node 2 goes down for 5 sec
+  Node 2 goes up and wait for 5 sec before next iteration
+Iter: 508, @nodes [1, 2, 3] => leader: 1, term: 525
+  Interface s1-eth3 goes down for 5 sec
+  Interface s1-eth3 goes up and wait for 5 sec before next iteration
+Iter: 509, @nodes [1, 2, 3] => leader: 3, term: 526
+  Node 3 goes down for 5 sec
+  Node 3 goes up and wait for 5 sec before next iteration
+Iter: 510, @nodes [1, 2, 3] => leader: 2, term: 528
+  Interface s2-eth2 goes down for 5 sec
+  Interface s2-eth2 goes up and wait for 5 sec before next iteration
+Iter: 511, @nodes [1, 2, 3] => leader: 3, term: 529
+  Interface s3-eth3 goes down for 5 sec
+  Interface s3-eth3 goes up and wait for 5 sec before next iteration
+Iter: 512, @nodes [1, 2, 3] => leader: 2, term: 530
+  Interface s2-eth2 goes down for 5 sec
+  Interface s2-eth2 goes up and wait for 5 sec before next iteration
+Iter: 513, @nodes [1, 2, 3] => leader: 3, term: 531
+  Node 3 goes down for 5 sec
+  Node 3 goes up and wait for 5 sec before next iteration
+Iter: 514, @nodes [1, 2, 3] => leader: 2, term: 532
+  Interface s2-eth2 goes down for 5 sec
+  Interface s2-eth2 goes up and wait for 5 sec before next iteration
+Iter: 515, @nodes [1, 2, 3] => leader: 3, term: 533
+  Interface s3-eth3 goes down for 5 sec
+  Interface s3-eth3 goes up and wait for 5 sec before next iteration
+Iter: 516, @nodes [1, 2, 3] => leader: 2, term: 534
+  Interface s2-eth2 goes down for 5 sec
+  Interface s2-eth2 goes up and wait for 5 sec before next iteration
+Iter: 517, @nodes [1, 2, 3] => leader: 3, term: 535
+  Node 3 goes down for 5 sec
+  Node 3 goes up and wait for 5 sec before next iteration
+Iter: 518, @nodes [1, 2, 3] => leader: 1, term: 536
+  Interface s1-eth3 goes down for 5 sec
+  Interface s1-eth3 goes up and wait for 5 sec before next iteration
+Iter: 519, @nodes [1, 2, 3] => leader: 3, term: 537
+  Interface s3-eth3 goes down for 5 sec
+  Interface s3-eth3 goes up and wait for 5 sec before next iteration
+Iter: 520, @nodes [1, 2, 3] => leader: 2, term: 538
+  Node 2 goes down for 5 sec
+  Node 2 goes up and wait for 5 sec before next iteration
+Iter: 521, @nodes [1, 2, 3] => leader: 1, term: 539
+  Interface s1-eth3 goes down for 5 sec
+  Interface s1-eth3 goes up and wait for 5 sec before next iteration
+Iter: 522, @nodes [1, 2, 3] => leader: 3, term: 540
+  Interface s3-eth3 goes down for 5 sec
+  Interface s3-eth3 goes up and wait for 5 sec before next iteration
+Iter: 523, @nodes [1, 2, 3] => leader: 2, term: 541
+  Interface s2-eth2 goes down for 5 sec
+  Interface s2-eth2 goes up and wait for 5 sec before next iteration
+Iter: 524, @nodes [1, 2, 3] => leader: 3, term: 542
+  Node 3 goes down for 5 sec
+  Node 3 goes up and wait for 5 sec before next iteration
+Iter: 525, @nodes [1, 2, 3] => leader: 1, term: 543
+  Interface s1-eth2 goes down for 5 sec
+  Interface s1-eth2 goes up and wait for 5 sec before next iteration
+Iter: 526, @nodes [1, 2, 3] => leader: 2, term: 544
+  Interface s2-eth3 goes down for 5 sec
+  Interface s2-eth3 goes up and wait for 5 sec before next iteration
+Iter: 527, @nodes [1, 2, 3] => leader: 1, term: 545
+  Node 1 goes down for 5 sec
+  Node 1 goes up and wait for 5 sec before next iteration
+Iter: 528, @nodes [1, 2, 3] => leader: 3, term: 546
+  Interface s3-eth2 goes down for 5 sec
+  Interface s3-eth2 goes up and wait for 5 sec before next iteration
+Iter: 529, @nodes [1, 2, 3] => leader: 1, term: 547
+  Interface s1-eth3 goes down for 5 sec
+  Interface s1-eth3 goes up and wait for 5 sec before next iteration
+Iter: 530, @nodes [1, 2, 3] => leader: 3, term: 548
+  Interface s3-eth2 goes down for 5 sec
+  Interface s3-eth2 goes up and wait for 5 sec before next iteration
+Iter: 531, @nodes [1, 2, 3] => leader: 1, term: 549
+  Interface s1-eth3 goes down for 5 sec
+  Interface s1-eth3 goes up and wait for 5 sec before next iteration
+Iter: 532, @nodes [1, 2, 3] => leader: 3, term: 550
+  Interface s3-eth2 goes down for 5 sec
+  Interface s3-eth2 goes up and wait for 5 sec before next iteration
+Iter: 533, @nodes [1, 2, 3] => leader: 1, term: 551
+  Node 1 goes down for 5 sec
+  Node 1 goes up and wait for 5 sec before next iteration
+Iter: 534, @nodes [1, 2, 3] => leader: 3, term: 552
+  Interface s3-eth2 goes down for 5 sec
+  Interface s3-eth2 goes up and wait for 5 sec before next iteration
+Iter: 535, @nodes [1, 2, 3] => leader: 1, term: 553
+  Interface s1-eth2 goes down for 5 sec
+  Interface s1-eth2 goes up and wait for 5 sec before next iteration
+Iter: 536, @nodes [1, 2, 3] => leader: 2, term: 554
+  Node 2 goes down for 5 sec
+  Node 2 goes up and wait for 5 sec before next iteration
+Iter: 537, @nodes [1, 2, 3] => leader: 1, term: 555
+  Node 1 goes down for 5 sec
+  Node 1 goes up and wait for 5 sec before next iteration
+Iter: 538, @nodes [1, 2, 3] => leader: 2, term: 556
+  Interface s2-eth2 goes down for 5 sec
+  Interface s2-eth2 goes up and wait for 5 sec before next iteration
+Iter: 539, @nodes [1, 2, 3] => leader: 3, term: 557
+  Node 3 goes down for 5 sec
+  Node 3 goes up and wait for 5 sec before next iteration
+Iter: 540, @nodes [1, 2, 3] => leader: 2, term: 558
+  Node 2 goes down for 5 sec
+  Node 2 goes up and wait for 5 sec before next iteration
+Iter: 541, @nodes [1, 2, 3] => leader: 1, term: 559
+  Interface s1-eth3 goes down for 5 sec
+  Interface s1-eth3 goes up and wait for 5 sec before next iteration
+Iter: 542, @nodes [1, 2, 3] => leader: 3, term: 560
+  Interface s3-eth2 goes down for 5 sec
+  Interface s3-eth2 goes up and wait for 5 sec before next iteration
+Iter: 543, @nodes [1, 2, 3] => leader: 1, term: 561
+  Node 1 goes down for 5 sec
+  Node 1 goes up and wait for 5 sec before next iteration
+Iter: 544, @nodes [1, 2, 3] => leader: 3, term: 563
+  Interface s3-eth2 goes down for 5 sec
+  Interface s3-eth2 goes up and wait for 5 sec before next iteration
+Iter: 545, @nodes [1, 2, 3] => leader: 1, term: 564
+  Node 1 goes down for 5 sec
+  Node 1 goes up and wait for 5 sec before next iteration
+Iter: 546, @nodes [1, 2, 3] => leader: 3, term: 565
+  Node 3 goes down for 5 sec
+  Node 3 goes up and wait for 5 sec before next iteration
+Iter: 547, @nodes [1, 2, 3] => leader: 1, term: 566
+  Node 1 goes down for 5 sec
+  Node 1 goes up and wait for 5 sec before next iteration
+Iter: 548, @nodes [1, 2, 3] => leader: 2, term: 568
+  Interface s2-eth3 goes down for 5 sec
+  Interface s2-eth3 goes up and wait for 5 sec before next iteration
+Iter: 549, @nodes [1, 2, 3] => leader: 1, term: 569
+  Interface s1-eth2 goes down for 5 sec
+  Interface s1-eth2 goes up and wait for 5 sec before next iteration
+Iter: 550, @nodes [1, 2, 3] => leader: 2, term: 570
+  Node 2 goes down for 5 sec
+  Node 2 goes up and wait for 5 sec before next iteration
+Iter: 551, @nodes [1, 2, 3] => leader: 3, term: 571
+  Node 3 goes down for 5 sec
+  Node 3 goes up and wait for 5 sec before next iteration
+Iter: 552, @nodes [1, 2, 3] => leader: 1, term: 572
+  Node 1 goes down for 5 sec
+  Node 1 goes up and wait for 5 sec before next iteration
+Iter: 553, @nodes [1, 2, 3] => leader: 3, term: 573
+  Interface s3-eth3 goes down for 5 sec
+  Interface s3-eth3 goes up and wait for 5 sec before next iteration
+Iter: 554, @nodes [1, 2, 3] => leader: 2, term: 574
+  Interface s2-eth2 goes down for 5 sec
+  Interface s2-eth2 goes up and wait for 5 sec before next iteration
+Iter: 555, @nodes [1, 2, 3] => leader: 3, term: 575
+  Node 3 goes down for 5 sec
+  Node 3 goes up and wait for 5 sec before next iteration
+Iter: 556, @nodes [1, 2, 3] => leader: 1, term: 576
+  Node 1 goes down for 5 sec
+  Node 1 goes up and wait for 5 sec before next iteration
+Iter: 557, @nodes [1, 2, 3] => leader: 2, term: 577
+  Interface s2-eth3 goes down for 5 sec
+  Interface s2-eth3 goes up and wait for 5 sec before next iteration
+Iter: 558, @nodes [1, 2, 3] => leader: 1, term: 578
+  Interface s1-eth3 goes down for 5 sec
+  Interface s1-eth3 goes up and wait for 5 sec before next iteration
+Iter: 559, @nodes [1, 2, 3] => leader: 3, term: 579
+  Node 3 goes down for 5 sec
+  Node 3 goes up and wait for 5 sec before next iteration
+Iter: 560, @nodes [1, 2, 3] => leader: 1, term: 580
+  Node 1 goes down for 5 sec
+  Node 1 goes up and wait for 5 sec before next iteration
+Iter: 561, @nodes [1, 2, 3] => leader: 3, term: 581
+  Interface s3-eth3 goes down for 5 sec
+  Interface s3-eth3 goes up and wait for 5 sec before next iteration
+Iter: 562, @nodes [1, 2, 3] => leader: 2, term: 582
+  Node 2 goes down for 5 sec
+  Node 2 goes up and wait for 5 sec before next iteration
+Iter: 563, @nodes [1, 2, 3] => leader: 3, term: 583
+  Node 3 goes down for 5 sec
+  Node 3 goes up and wait for 5 sec before next iteration
+Iter: 564, @nodes [1, 2, 3] => leader: 1, term: 584
+  Interface s1-eth3 goes down for 5 sec
+  Interface s1-eth3 goes up and wait for 5 sec before next iteration
+Iter: 565, @nodes [1, 2, 3] => leader: 3, term: 585
+  Node 3 goes down for 5 sec
+  Node 3 goes up and wait for 5 sec before next iteration
+Iter: 566, @nodes [1, 2, 3] => leader: 1, term: 586
+  Node 1 goes down for 5 sec
+  Node 1 goes up and wait for 5 sec before next iteration
+Iter: 567, @nodes [1, 2, 3] => leader: 2, term: 589
+  Node 2 goes down for 5 sec
+  Node 2 goes up and wait for 5 sec before next iteration
+Iter: 568, @nodes [1, 2, 3] => leader: 3, term: 590
+  Node 3 goes down for 5 sec
+  Node 3 goes up and wait for 5 sec before next iteration
+Iter: 569, @nodes [1, 2, 3] => leader: 2, term: 591
+  Interface s2-eth2 goes down for 5 sec
+  Interface s2-eth2 goes up and wait for 5 sec before next iteration
+Iter: 570, @nodes [1, 2, 3] => leader: 3, term: 592
+  Interface s3-eth3 goes down for 5 sec
+  Interface s3-eth3 goes up and wait for 5 sec before next iteration
+Iter: 571, @nodes [1, 2, 3] => leader: 2, term: 593
+  Interface s2-eth3 goes down for 5 sec
+  Interface s2-eth3 goes up and wait for 5 sec before next iteration
+Iter: 572, @nodes [1, 2, 3] => leader: 1, term: 594
+  Node 1 goes down for 5 sec
+  Node 1 goes up and wait for 5 sec before next iteration
+Iter: 573, @nodes [1, 2, 3] => leader: 2, term: 595
+  Interface s2-eth3 goes down for 5 sec
+  Interface s2-eth3 goes up and wait for 5 sec before next iteration
+Iter: 574, @nodes [1, 2, 3] => leader: 1, term: 596
+  Node 1 goes down for 5 sec
+  Node 1 goes up and wait for 5 sec before next iteration
+Iter: 575, @nodes [1, 2, 3] => leader: 2, term: 597
+  Node 2 goes down for 5 sec
+  Node 2 goes up and wait for 5 sec before next iteration
+Iter: 576, @nodes [1, 2, 3] => leader: 3, term: 598
+  Node 3 goes down for 5 sec
+  Node 3 goes up and wait for 5 sec before next iteration
+Iter: 577, @nodes [1, 2, 3] => leader: 2, term: 599
+  Node 2 goes down for 5 sec
+  Node 2 goes up and wait for 5 sec before next iteration
+Iter: 578, @nodes [1, 2, 3] => leader: 1, term: 600
+  Node 1 goes down for 5 sec
+  Node 1 goes up and wait for 5 sec before next iteration
+Iter: 579, @nodes [1, 2, 3] => leader: 2, term: 601
+  Interface s2-eth2 goes down for 5 sec
+  Interface s2-eth2 goes up and wait for 5 sec before next iteration
+Iter: 580, @nodes [1, 2, 3] => leader: 3, term: 602
+  Node 3 goes down for 5 sec
+  Node 3 goes up and wait for 5 sec before next iteration
+Iter: 581, @nodes [1, 2, 3] => leader: 2, term: 603
+  Node 2 goes down for 5 sec
+  Node 2 goes up and wait for 5 sec before next iteration
+Iter: 582, @nodes [1, 2, 3] => leader: 1, term: 605
+  Interface s1-eth2 goes down for 5 sec
+  Interface s1-eth2 goes up and wait for 5 sec before next iteration
+Iter: 583, @nodes [1, 2, 3] => leader: 2, term: 606
+  Interface s2-eth2 goes down for 5 sec
+  Interface s2-eth2 goes up and wait for 5 sec before next iteration
+Iter: 584, @nodes [1, 2, 3] => leader: 3, term: 607
+  Interface s3-eth3 goes down for 5 sec
+  Interface s3-eth3 goes up and wait for 5 sec before next iteration
+Iter: 585, @nodes [1, 2, 3] => leader: 2, term: 608
+  Node 2 goes down for 5 sec
+  Node 2 goes up and wait for 5 sec before next iteration
+Iter: 586, @nodes [1, 2, 3] => leader: 3, term: 609
+  Interface s3-eth2 goes down for 5 sec
+  Interface s3-eth2 goes up and wait for 5 sec before next iteration
+Iter: 587, @nodes [1, 2, 3] => leader: 1, term: 610
+  Interface s1-eth2 goes down for 5 sec
+  Interface s1-eth2 goes up and wait for 5 sec before next iteration
+Iter: 588, @nodes [1, 2, 3] => leader: 2, term: 611
+  Node 2 goes down for 5 sec
+  Node 2 goes up and wait for 5 sec before next iteration
+Iter: 589, @nodes [1, 2, 3] => leader: 1, term: 612
+  Node 1 goes down for 5 sec
+  Node 1 goes up and wait for 5 sec before next iteration
+Iter: 590, @nodes [1, 2, 3] => leader: 2, term: 613
+  Node 2 goes down for 5 sec
+  Node 2 goes up and wait for 5 sec before next iteration
+Iter: 591, @nodes [1, 2, 3] => leader: 3, term: 614
+  Node 3 goes down for 5 sec
+  Node 3 goes up and wait for 5 sec before next iteration
+Iter: 592, @nodes [1, 2, 3] => leader: 1, term: 615
+  Interface s1-eth2 goes down for 5 sec
+  Interface s1-eth2 goes up and wait for 5 sec before next iteration
+Iter: 593, @nodes [1, 2, 3] => leader: 2, term: 616
+  Interface s2-eth3 goes down for 5 sec
+  Interface s2-eth3 goes up and wait for 5 sec before next iteration
+Iter: 594, @nodes [1, 2, 3] => leader: 1, term: 617
+  Interface s1-eth3 goes down for 5 sec
+  Interface s1-eth3 goes up and wait for 5 sec before next iteration
+Iter: 595, @nodes [1, 2, 3] => leader: 3, term: 618
+  Node 3 goes down for 5 sec
+  Node 3 goes up and wait for 5 sec before next iteration
+Iter: 596, @nodes [1, 2, 3] => leader: 1, term: 620
+  Node 1 goes down for 5 sec
+  Node 1 goes up and wait for 5 sec before next iteration
+Iter: 597, @nodes [1, 2, 3] => leader: 3, term: 621
+  Interface s3-eth2 goes down for 5 sec
+  Interface s3-eth2 goes up and wait for 5 sec before next iteration
+Iter: 598, @nodes [1, 2, 3] => leader: 1, term: 622
+  Interface s1-eth2 goes down for 5 sec
+  Interface s1-eth2 goes up and wait for 5 sec before next iteration
+Iter: 599, @nodes [1, 2, 3] => leader: 2, term: 623
+  Interface s2-eth2 goes down for 5 sec
+  Interface s2-eth2 goes up and wait for 5 sec before next iteration
+Iter: 600, @nodes [1, 2, 3] => leader: 3, term: 624
+  Interface s3-eth3 goes down for 5 sec
+  Interface s3-eth3 goes up and wait for 5 sec before next iteration
+Iter: 601, @nodes [1, 2, 3] => leader: 2, term: 625
+  Node 2 goes down for 5 sec
+  Node 2 goes up and wait for 5 sec before next iteration
+Iter: 602, @nodes [1, 2, 3] => leader: 1, term: 626
+  Interface s1-eth2 goes down for 5 sec
+  Interface s1-eth2 goes up and wait for 5 sec before next iteration
+Iter: 603, @nodes [1, 2, 3] => leader: 2, term: 627
+  Interface s2-eth3 goes down for 5 sec
+  Interface s2-eth3 goes up and wait for 5 sec before next iteration
+Iter: 604, @nodes [1, 2, 3] => leader: 1, term: 628
+  Interface s1-eth2 goes down for 5 sec
+  Interface s1-eth2 goes up and wait for 5 sec before next iteration
+Iter: 605, @nodes [1, 2, 3] => leader: 2, term: 629
+  Interface s2-eth3 goes down for 5 sec
+  Interface s2-eth3 goes up and wait for 5 sec before next iteration
+Iter: 606, @nodes [1, 2, 3] => leader: 1, term: 630
+  Interface s1-eth3 goes down for 5 sec
+  Interface s1-eth3 goes up and wait for 5 sec before next iteration
+Iter: 607, @nodes [1, 2, 3] => leader: 3, term: 631
+  Node 3 goes down for 5 sec
+  Node 3 goes up and wait for 5 sec before next iteration
+Iter: 608, @nodes [1, 2, 3] => leader: 1, term: 632
+  Node 1 goes down for 5 sec
+  Node 1 goes up and wait for 5 sec before next iteration
+Iter: 609, @nodes [1, 2, 3] => leader: 2, term: 633
+  Interface s2-eth2 goes down for 5 sec
+  Interface s2-eth2 goes up and wait for 5 sec before next iteration
+Iter: 610, @nodes [1, 2, 3] => leader: 3, term: 634
+  Interface s3-eth3 goes down for 5 sec
+  Interface s3-eth3 goes up and wait for 5 sec before next iteration
+Iter: 611, @nodes [1, 2, 3] => leader: 2, term: 635
+  Interface s2-eth2 goes down for 5 sec
+  Interface s2-eth2 goes up and wait for 5 sec before next iteration
+Iter: 612, @nodes [1, 2, 3] => leader: 3, term: 636
+  Interface s3-eth2 goes down for 5 sec
+  Interface s3-eth2 goes up and wait for 5 sec before next iteration
+Iter: 613, @nodes [1, 2, 3] => leader: 1, term: 637
+  Interface s1-eth3 goes down for 5 sec
+  Interface s1-eth3 goes up and wait for 5 sec before next iteration
+Iter: 614, @nodes [1, 2, 3] => leader: 3, term: 638
+  Node 3 goes down for 5 sec
+  Node 3 goes up and wait for 5 sec before next iteration
+Iter: 615, @nodes [1, 2, 3] => leader: 1, term: 639
+  Node 1 goes down for 5 sec
+  Node 1 goes up and wait for 5 sec before next iteration
+Iter: 616, @nodes [1, 2, 3] => leader: 2, term: 640
+  Interface s2-eth2 goes down for 5 sec
+  Interface s2-eth2 goes up and wait for 5 sec before next iteration
+Iter: 617, @nodes [1, 2, 3] => leader: 3, term: 641
+  Interface s3-eth3 goes down for 5 sec
+  Interface s3-eth3 goes up and wait for 5 sec before next iteration
+Iter: 618, @nodes [1, 2, 3] => leader: 2, term: 642
+  Interface s2-eth2 goes down for 5 sec
+  Interface s2-eth2 goes up and wait for 5 sec before next iteration
+Iter: 619, @nodes [1, 2, 3] => leader: 3, term: 643
+  Node 3 goes down for 5 sec
+  Node 3 goes up and wait for 5 sec before next iteration
+Iter: 620, @nodes [1, 2, 3] => leader: 2, term: 644
+  Interface s2-eth3 goes down for 5 sec
+  Interface s2-eth3 goes up and wait for 5 sec before next iteration
+Iter: 621, @nodes [1, 2, 3] => leader: 1, term: 645
+  Node 1 goes down for 5 sec
+  Node 1 goes up and wait for 5 sec before next iteration
+Iter: 622, @nodes [1, 2, 3] => leader: 2, term: 647
+  Node 2 goes down for 5 sec
+  Node 2 goes up and wait for 5 sec before next iteration
+Iter: 623, @nodes [1, 2, 3] => leader: 3, term: 648
+  Node 3 goes down for 5 sec
+  Node 3 goes up and wait for 5 sec before next iteration
+Iter: 624, @nodes [1, 2, 3] => leader: 1, term: 650
+  Node 1 goes down for 5 sec
+  Node 1 goes up and wait for 5 sec before next iteration
+Iter: 625, @nodes [1, 2, 3] => leader: 3, term: 651
+  Interface s3-eth3 goes down for 5 sec
+  Interface s3-eth3 goes up and wait for 5 sec before next iteration
+Iter: 626, @nodes [1, 2, 3] => leader: 2, term: 652
+  Interface s2-eth2 goes down for 5 sec
+  Interface s2-eth2 goes up and wait for 5 sec before next iteration
+Iter: 627, @nodes [1, 2, 3] => leader: 3, term: 653
+  Interface s3-eth2 goes down for 5 sec
+  Interface s3-eth2 goes up and wait for 5 sec before next iteration
+Iter: 628, @nodes [1, 2, 3] => leader: 1, term: 654
+  Interface s1-eth3 goes down for 5 sec
+  Interface s1-eth3 goes up and wait for 5 sec before next iteration
+Iter: 629, @nodes [1, 2, 3] => leader: 3, term: 655
+  Node 3 goes down for 5 sec
+  Node 3 goes up and wait for 5 sec before next iteration
+Iter: 630, @nodes [1, 2, 3] => leader: 2, term: 656
+  Interface s2-eth2 goes down for 5 sec
+  Interface s2-eth2 goes up and wait for 5 sec before next iteration
+Iter: 631, @nodes [1, 2, 3] => leader: 3, term: 657
+  Node 3 goes down for 5 sec
+  Node 3 goes up and wait for 5 sec before next iteration
+Iter: 632, @nodes [1, 2, 3] => leader: 1, term: 658
+  Interface s1-eth2 goes down for 5 sec
+  Interface s1-eth2 goes up and wait for 5 sec before next iteration
+Iter: 633, @nodes [1, 2, 3] => leader: 2, term: 659
+  Interface s2-eth3 goes down for 5 sec
+  Interface s2-eth3 goes up and wait for 5 sec before next iteration
+Iter: 634, @nodes [1, 2, 3] => leader: 1, term: 660
+  Interface s1-eth2 goes down for 5 sec
+  Interface s1-eth2 goes up and wait for 5 sec before next iteration
+Iter: 635, @nodes [1, 2, 3] => leader: 2, term: 661
+  Node 2 goes down for 5 sec
+  Node 2 goes up and wait for 5 sec before next iteration
+Iter: 636, @nodes [1, 2, 3] => leader: 3, term: 662
+  Node 3 goes down for 5 sec
+  Node 3 goes up and wait for 5 sec before next iteration
+Iter: 637, @nodes [1, 2, 3] => leader: 1, term: 663
+  Interface s1-eth2 goes down for 5 sec
+  Interface s1-eth2 goes up and wait for 5 sec before next iteration
+Iter: 638, @nodes [1, 2, 3] => leader: 2, term: 664
+  Node 2 goes down for 5 sec
+  Node 2 goes up and wait for 5 sec before next iteration
+Iter: 639, @nodes [1, 2, 3] => leader: 3, term: 665
+  Interface s3-eth3 goes down for 5 sec
+  Interface s3-eth3 goes up and wait for 5 sec before next iteration
+Iter: 640, @nodes [1, 2, 3] => leader: 2, term: 666
+  Interface s2-eth3 goes down for 5 sec
+  Interface s2-eth3 goes up and wait for 5 sec before next iteration
+Iter: 641, @nodes [1, 2, 3] => leader: 1, term: 667
+  Interface s1-eth2 goes down for 5 sec
+  Interface s1-eth2 goes up and wait for 5 sec before next iteration
+Iter: 642, @nodes [1, 2, 3] => leader: 2, term: 668
+  Interface s2-eth2 goes down for 5 sec
+  Interface s2-eth2 goes up and wait for 5 sec before next iteration
+Iter: 643, @nodes [1, 2, 3] => leader: 3, term: 669
+  Interface s3-eth3 goes down for 5 sec
+  Interface s3-eth3 goes up and wait for 5 sec before next iteration
+Iter: 644, @nodes [1, 2, 3] => leader: 2, term: 670
+  Interface s2-eth3 goes down for 5 sec
+  Interface s2-eth3 goes up and wait for 5 sec before next iteration
+Iter: 645, @nodes [1, 2, 3] => leader: 1, term: 671
+  Node 1 goes down for 5 sec
+  Node 1 goes up and wait for 5 sec before next iteration
+Iter: 646, @nodes [1, 2, 3] => leader: 3, term: 672
+  Node 3 goes down for 5 sec
+  Node 3 goes up and wait for 5 sec before next iteration
+Iter: 647, @nodes [1, 2, 3] => leader: 2, term: 674
+  Node 2 goes down for 5 sec
+  Node 2 goes up and wait for 5 sec before next iteration
+Iter: 648, @nodes [1, 2, 3] => leader: 3, term: 675
+  Node 3 goes down for 5 sec
+  Node 3 goes up and wait for 5 sec before next iteration
+Iter: 649, @nodes [1, 2, 3] => leader: 1, term: 676
+  Interface s1-eth2 goes down for 5 sec
+  Interface s1-eth2 goes up and wait for 5 sec before next iteration
+Iter: 650, @nodes [1, 2, 3] => leader: 2, term: 677
+  Interface s2-eth2 goes down for 5 sec
+  Interface s2-eth2 goes up and wait for 5 sec before next iteration
+Iter: 651, @nodes [1, 2, 3] => leader: 3, term: 678
+  Node 3 goes down for 5 sec
+  Node 3 goes up and wait for 5 sec before next iteration
+Iter: 652, @nodes [1, 2, 3] => leader: 2, term: 680
+  Node 2 goes down for 5 sec
+  Node 2 goes up and wait for 5 sec before next iteration
+Iter: 653, @nodes [1, 2, 3] => leader: 3, term: 681
+  Interface s3-eth3 goes down for 5 sec
+  Interface s3-eth3 goes up and wait for 5 sec before next iteration
+Iter: 654, @nodes [1, 2, 3] => leader: 2, term: 682
+  Interface s2-eth2 goes down for 5 sec
+  Interface s2-eth2 goes up and wait for 5 sec before next iteration
+Iter: 655, @nodes [1, 2, 3] => leader: 3, term: 683
+  Interface s3-eth3 goes down for 5 sec
+  Interface s3-eth3 goes up and wait for 5 sec before next iteration
+Iter: 656, @nodes [1, 2, 3] => leader: 2, term: 684
+  Node 2 goes down for 5 sec
+  Node 2 goes up and wait for 5 sec before next iteration
+Iter: 657, @nodes [1, 2, 3] => leader: 1, term: 685
+  Node 1 goes down for 5 sec
+  Node 1 goes up and wait for 5 sec before next iteration
+Iter: 658, @nodes [1, 2, 3] => leader: 2, term: 686
+  Node 2 goes down for 5 sec
+  Node 2 goes up and wait for 5 sec before next iteration
+Iter: 659, @nodes [1, 2, 3] => leader: 1, term: 687
+  Node 1 goes down for 5 sec
+  Node 1 goes up and wait for 5 sec before next iteration
+Iter: 660, @nodes [1, 2, 3] => leader: 2, term: 688
+  Node 2 goes down for 5 sec
+  Node 2 goes up and wait for 5 sec before next iteration
+Iter: 661, @nodes [1, 2, 3] => leader: 3, term: 690
+  Interface s3-eth2 goes down for 5 sec
+  Interface s3-eth2 goes up and wait for 5 sec before next iteration
+Iter: 662, @nodes [1, 2, 3] => leader: 1, term: 691
+  Interface s1-eth3 goes down for 5 sec
+  Interface s1-eth3 goes up and wait for 5 sec before next iteration
+Iter: 663, @nodes [1, 2, 3] => leader: 3, term: 692
+  Node 3 goes down for 5 sec
+  Node 3 goes up and wait for 5 sec before next iteration
+Iter: 664, @nodes [1, 2, 3] => leader: 1, term: 693
+  Interface s1-eth2 goes down for 5 sec
+  Interface s1-eth2 goes up and wait for 5 sec before next iteration
+Iter: 665, @nodes [1, 2, 3] => leader: 2, term: 694
+  Interface s2-eth3 goes down for 5 sec
+  Interface s2-eth3 goes up and wait for 5 sec before next iteration
+Iter: 666, @nodes [1, 2, 3] => leader: 1, term: 695
+  Node 1 goes down for 5 sec
+  Node 1 goes up and wait for 5 sec before next iteration
+Iter: 667, @nodes [1, 2, 3] => leader: 2, term: 696
+  Interface s2-eth3 goes down for 5 sec
+  Interface s2-eth3 goes up and wait for 5 sec before next iteration
+Iter: 668, @nodes [1, 2, 3] => leader: 1, term: 697
+  Interface s1-eth2 goes down for 5 sec
+  Interface s1-eth2 goes up and wait for 5 sec before next iteration
+Iter: 669, @nodes [1, 2, 3] => leader: 2, term: 698
+  Node 2 goes down for 5 sec
+  Node 2 goes up and wait for 5 sec before next iteration
+Iter: 670, @nodes [1, 2, 3] => leader: 1, term: 699
+  Interface s1-eth2 goes down for 5 sec
+  Interface s1-eth2 goes up and wait for 5 sec before next iteration
+Iter: 671, @nodes [1, 2, 3] => leader: 2, term: 700
+  Interface s2-eth3 goes down for 5 sec
+  Interface s2-eth3 goes up and wait for 5 sec before next iteration
+Iter: 672, @nodes [1, 2, 3] => leader: 1, term: 701
+  Node 1 goes down for 5 sec
+  Node 1 goes up and wait for 5 sec before next iteration
+Iter: 673, @nodes [1, 2, 3] => leader: 3, term: 702
+  Interface s3-eth2 goes down for 5 sec
+  Interface s3-eth2 goes up and wait for 5 sec before next iteration
+Iter: 674, @nodes [1, 2, 3] => leader: 1, term: 703
+  Interface s1-eth2 goes down for 5 sec
+  Interface s1-eth2 goes up and wait for 5 sec before next iteration
+Iter: 675, @nodes [1, 2, 3] => leader: 2, term: 704
+  Interface s2-eth2 goes down for 5 sec
+  Interface s2-eth2 goes up and wait for 5 sec before next iteration
+Iter: 676, @nodes [1, 2, 3] => leader: 3, term: 705
+  Interface s3-eth2 goes down for 5 sec
+  Interface s3-eth2 goes up and wait for 5 sec before next iteration
+Iter: 677, @nodes [1, 2, 3] => leader: 1, term: 706
+  Interface s1-eth3 goes down for 5 sec
+  Interface s1-eth3 goes up and wait for 5 sec before next iteration
+Iter: 678, @nodes [1, 2, 3] => leader: 3, term: 707
+  Interface s3-eth2 goes down for 5 sec
+  Interface s3-eth2 goes up and wait for 5 sec before next iteration
+Iter: 679, @nodes [1, 2, 3] => leader: 1, term: 708
+  Node 1 goes down for 5 sec
+  Node 1 goes up and wait for 5 sec before next iteration
+Iter: 680, @nodes [1, 2, 3] => leader: 3, term: 709
+  Interface s3-eth3 goes down for 5 sec
+  Interface s3-eth3 goes up and wait for 5 sec before next iteration
+Iter: 681, @nodes [1, 2, 3] => leader: 2, term: 710
+  Interface s2-eth2 goes down for 5 sec
+  Interface s2-eth2 goes up and wait for 5 sec before next iteration
+Iter: 682, @nodes [1, 2, 3] => leader: 3, term: 711
+  Interface s3-eth3 goes down for 5 sec
+  Interface s3-eth3 goes up and wait for 5 sec before next iteration
+Iter: 683, @nodes [1, 2, 3] => leader: 2, term: 712
+  Interface s2-eth2 goes down for 5 sec
+  Interface s2-eth2 goes up and wait for 5 sec before next iteration
+Iter: 684, @nodes [1, 2, 3] => leader: 3, term: 713
+  Node 3 goes down for 5 sec
+  Node 3 goes up and wait for 5 sec before next iteration
+Iter: 685, @nodes [1, 2, 3] => leader: 2, term: 714
+  Node 2 goes down for 5 sec
+  Node 2 goes up and wait for 5 sec before next iteration
+Iter: 686, @nodes [1, 2, 3] => leader: 3, term: 715
+  Node 3 goes down for 5 sec
+  Node 3 goes up and wait for 5 sec before next iteration
+Iter: 687, @nodes [1, 2, 3] => leader: 1, term: 716
+  Node 1 goes down for 5 sec
+  Node 1 goes up and wait for 5 sec before next iteration
+Iter: 688, @nodes [1, 2, 3] => leader: 3, term: 717
+  Interface s3-eth2 goes down for 5 sec
+  Interface s3-eth2 goes up and wait for 5 sec before next iteration
+Iter: 689, @nodes [1, 2, 3] => leader: 1, term: 718
+  Interface s1-eth2 goes down for 5 sec
+  Interface s1-eth2 goes up and wait for 5 sec before next iteration
+Iter: 690, @nodes [1, 2, 3] => leader: 2, term: 719
+  Node 2 goes down for 5 sec
+  Node 2 goes up and wait for 5 sec before next iteration
+Iter: 691, @nodes [1, 2, 3] => leader: 1, term: 720
+  Interface s1-eth2 goes down for 5 sec
+  Interface s1-eth2 goes up and wait for 5 sec before next iteration
+Iter: 692, @nodes [1, 2, 3] => leader: 2, term: 721
+  Interface s2-eth3 goes down for 5 sec
+  Interface s2-eth3 goes up and wait for 5 sec before next iteration
+Iter: 693, @nodes [1, 2, 3] => leader: 1, term: 722
+  Interface s1-eth2 goes down for 5 sec
+  Interface s1-eth2 goes up and wait for 5 sec before next iteration
+Iter: 694, @nodes [1, 2, 3] => leader: 2, term: 723
+  Node 2 goes down for 5 sec
+  Node 2 goes up and wait for 5 sec before next iteration
+Iter: 695, @nodes [1, 2, 3] => leader: 3, term: 724
+  Node 3 goes down for 5 sec
+  Node 3 goes up and wait for 5 sec before next iteration
+Iter: 696, @nodes [1, 2, 3] => leader: 1, term: 725
+  Node 1 goes down for 5 sec
+  Node 1 goes up and wait for 5 sec before next iteration
+Iter: 697, @nodes [1, 2, 3] => leader: 3, term: 726
+  Interface s3-eth3 goes down for 5 sec
+  Interface s3-eth3 goes up and wait for 5 sec before next iteration
+Iter: 698, @nodes [1, 2, 3] => leader: 2, term: 727
+  Interface s2-eth2 goes down for 5 sec
+  Interface s2-eth2 goes up and wait for 5 sec before next iteration
+Iter: 699, @nodes [1, 2, 3] => leader: 3, term: 728
+  Node 3 goes down for 5 sec
+  Node 3 goes up and wait for 5 sec before next iteration
+Iter: 700, @nodes [1, 2, 3] => leader: 1, term: 729
+  Interface s1-eth2 goes down for 5 sec
+  Interface s1-eth2 goes up and wait for 5 sec before next iteration
+Iter: 701, @nodes [1, 2, 3] => leader: 2, term: 730
+  Interface s2-eth3 goes down for 5 sec
+  Interface s2-eth3 goes up and wait for 5 sec before next iteration
+Iter: 702, @nodes [1, 2, 3] => leader: 1, term: 731
+  Node 1 goes down for 5 sec
+  Node 1 goes up and wait for 5 sec before next iteration
+Iter: 703, @nodes [1, 2, 3] => leader: 3, term: 732
+  Interface s3-eth2 goes down for 5 sec
+  Interface s3-eth2 goes up and wait for 5 sec before next iteration
+Iter: 704, @nodes [1, 2, 3] => leader: 1, term: 733
+  Node 1 goes down for 5 sec
+  Node 1 goes up and wait for 5 sec before next iteration
+Iter: 705, @nodes [1, 2, 3] => leader: 2, term: 734
+  Node 2 goes down for 5 sec
+  Node 2 goes up and wait for 5 sec before next iteration
+Iter: 706, @nodes [1, 2, 3] => leader: 3, term: 735
+  Node 3 goes down for 5 sec
+  Node 3 goes up and wait for 5 sec before next iteration
+Iter: 707, @nodes [1, 2, 3] => leader: 2, term: 736
+  Interface s2-eth2 goes down for 5 sec
+  Interface s2-eth2 goes up and wait for 5 sec before next iteration
+Iter: 708, @nodes [1, 2, 3] => leader: 3, term: 737
+  Interface s3-eth2 goes down for 5 sec
+  Interface s3-eth2 goes up and wait for 5 sec before next iteration
+Iter: 709, @nodes [1, 2, 3] => leader: 1, term: 738
+  Interface s1-eth2 goes down for 5 sec
+  Interface s1-eth2 goes up and wait for 5 sec before next iteration
+Iter: 710, @nodes [1, 2, 3] => leader: 2, term: 739
+  Node 2 goes down for 5 sec
+  Node 2 goes up and wait for 5 sec before next iteration
+Iter: 711, @nodes [1, 2, 3] => leader: 1, term: 740
+  Interface s1-eth3 goes down for 5 sec
+  Interface s1-eth3 goes up and wait for 5 sec before next iteration
+Iter: 712, @nodes [1, 2, 3] => leader: 3, term: 741
+  Node 3 goes down for 5 sec
+  Node 3 goes up and wait for 5 sec before next iteration
+Iter: 713, @nodes [1, 2, 3] => leader: 2, term: 742
+  Node 2 goes down for 5 sec
+  Node 2 goes up and wait for 5 sec before next iteration
+Iter: 714, @nodes [1, 2, 3] => leader: 1, term: 743
+  Interface s1-eth2 goes down for 5 sec
+  Interface s1-eth2 goes up and wait for 5 sec before next iteration
+Iter: 715, @nodes [1, 2, 3] => leader: 2, term: 744
+  Node 2 goes down for 5 sec
+  Node 2 goes up and wait for 5 sec before next iteration
+Iter: 716, @nodes [1, 2, 3] => leader: 3, term: 745
+  Node 3 goes down for 5 sec
+  Node 3 goes up and wait for 5 sec before next iteration
+Iter: 717, @nodes [1, 2, 3] => leader: 1, term: 746
+  Interface s1-eth3 goes down for 5 sec
+  Interface s1-eth3 goes up and wait for 5 sec before next iteration
+Iter: 718, @nodes [1, 2, 3] => leader: 3, term: 747
+  Interface s3-eth3 goes down for 5 sec
+  Interface s3-eth3 goes up and wait for 5 sec before next iteration
+Iter: 719, @nodes [1, 2, 3] => leader: 2, term: 748
+  Interface s2-eth3 goes down for 5 sec
+  Interface s2-eth3 goes up and wait for 5 sec before next iteration
+Iter: 720, @nodes [1, 2, 3] => leader: 1, term: 749
+  Node 1 goes down for 5 sec
+  Node 1 goes up and wait for 5 sec before next iteration
+Iter: 721, @nodes [1, 2, 3] => leader: 3, term: 750
+  Node 3 goes down for 5 sec
+  Node 3 goes up and wait for 5 sec before next iteration
+Iter: 722, @nodes [1, 2, 3] => leader: 1, term: 751
+  Interface s1-eth2 goes down for 5 sec
+  Interface s1-eth2 goes up and wait for 5 sec before next iteration
+Iter: 723, @nodes [1, 2, 3] => leader: 2, term: 752
+  Node 2 goes down for 5 sec
+  Node 2 goes up and wait for 5 sec before next iteration
+Iter: 724, @nodes [1, 2, 3] => leader: 1, term: 753
+  Node 1 goes down for 5 sec
+  Node 1 goes up and wait for 5 sec before next iteration
+Iter: 725, @nodes [1, 2, 3] => leader: 3, term: 754
+  Interface s3-eth2 goes down for 5 sec
+  Interface s3-eth2 goes up and wait for 5 sec before next iteration
+Iter: 726, @nodes [1, 2, 3] => leader: 1, term: 755
+  Interface s1-eth3 goes down for 5 sec
+  Interface s1-eth3 goes up and wait for 5 sec before next iteration
+Iter: 727, @nodes [1, 2, 3] => leader: 3, term: 756
+  Interface s3-eth3 goes down for 5 sec
+  Interface s3-eth3 goes up and wait for 5 sec before next iteration
+Iter: 728, @nodes [1, 2, 3] => leader: 2, term: 757
+  Interface s2-eth3 goes down for 5 sec
+  Interface s2-eth3 goes up and wait for 5 sec before next iteration
+Iter: 729, @nodes [1, 2, 3] => leader: 1, term: 758
+  Node 1 goes down for 5 sec
+  Node 1 goes up and wait for 5 sec before next iteration
+Iter: 730, @nodes [1, 2, 3] => leader: 3, term: 759
+  Node 3 goes down for 5 sec
+  Node 3 goes up and wait for 5 sec before next iteration
+Iter: 731, @nodes [1, 2, 3] => leader: 1, term: 760
+  Node 1 goes down for 5 sec
+  Node 1 goes up and wait for 5 sec before next iteration
+Iter: 732, @nodes [1, 2, 3] => leader: 3, term: 761
+  Node 3 goes down for 5 sec
+  Node 3 goes up and wait for 5 sec before next iteration
+Iter: 733, @nodes [1, 2, 3] => leader: 1, term: 762
+  Interface s1-eth2 goes down for 5 sec
+  Interface s1-eth2 goes up and wait for 5 sec before next iteration
+Iter: 734, @nodes [1, 2, 3] => leader: 2, term: 763
+  Node 2 goes down for 5 sec
+  Node 2 goes up and wait for 5 sec before next iteration
+Iter: 735, @nodes [1, 2, 3] => leader: 3, term: 764
+  Node 3 goes down for 5 sec
+  Node 3 goes up and wait for 5 sec before next iteration
+Iter: 736, @nodes [1, 2, 3] => leader: 2, term: 765
+  Node 2 goes down for 5 sec
+  Node 2 goes up and wait for 5 sec before next iteration
+Iter: 737, @nodes [1, 2, 3] => leader: 3, term: 766
+  Interface s3-eth2 goes down for 5 sec
+  Interface s3-eth2 goes up and wait for 5 sec before next iteration
+Iter: 738, @nodes [1, 2, 3] => leader: 1, term: 767
+  Node 1 goes down for 5 sec
+  Node 1 goes up and wait for 5 sec before next iteration
+Iter: 739, @nodes [1, 2, 3] => leader: 2, term: 768
+  Node 2 goes down for 5 sec
+  Node 2 goes up and wait for 5 sec before next iteration
+Iter: 740, @nodes [1, 2, 3] => leader: 3, term: 769
+  Interface s3-eth2 goes down for 5 sec
+  Interface s3-eth2 goes up and wait for 5 sec before next iteration
+Iter: 741, @nodes [1, 2, 3] => leader: 1, term: 770
+  Interface s1-eth3 goes down for 5 sec
+  Interface s1-eth3 goes up and wait for 5 sec before next iteration
+Iter: 742, @nodes [1, 2, 3] => leader: 3, term: 771
+  Node 3 goes down for 5 sec
+  Node 3 goes up and wait for 5 sec before next iteration
+Iter: 743, @nodes [1, 2, 3] => leader: 1, term: 772
+  Node 1 goes down for 5 sec
+  Node 1 goes up and wait for 5 sec before next iteration
+Iter: 744, @nodes [1, 2, 3] => leader: 2, term: 773
+  Interface s2-eth3 goes down for 5 sec
+  Interface s2-eth3 goes up and wait for 5 sec before next iteration
+Iter: 745, @nodes [1, 2, 3] => leader: 1, term: 774
+  Node 1 goes down for 5 sec
+  Node 1 goes up and wait for 5 sec before next iteration
+Iter: 746, @nodes [1, 2, 3] => leader: 3, term: 775
+  Interface s3-eth3 goes down for 5 sec
+  Interface s3-eth3 goes up and wait for 5 sec before next iteration
+Iter: 747, @nodes [1, 2, 3] => leader: 2, term: 776
+  Node 2 goes down for 5 sec
+  Node 2 goes up and wait for 5 sec before next iteration
+Iter: 748, @nodes [1, 2, 3] => leader: 3, term: 777
+  Interface s3-eth2 goes down for 5 sec
+  Interface s3-eth2 goes up and wait for 5 sec before next iteration
+Iter: 749, @nodes [1, 2, 3] => leader: 1, term: 778
+  Node 1 goes down for 5 sec
+  Node 1 goes up and wait for 5 sec before next iteration
+Iter: 750, @nodes [1, 2, 3] => leader: 3, term: 779
+  Node 3 goes down for 5 sec
+  Node 3 goes up and wait for 5 sec before next iteration
+Iter: 751, @nodes [1, 2, 3] => leader: 2, term: 780
+  Node 2 goes down for 5 sec
+  Node 2 goes up and wait for 5 sec before next iteration
+Iter: 752, @nodes [1, 2, 3] => leader: 1, term: 781
+  Interface s1-eth3 goes down for 5 sec
+  Interface s1-eth3 goes up and wait for 5 sec before next iteration
+Iter: 753, @nodes [1, 2, 3] => leader: 3, term: 782
+  Node 3 goes down for 5 sec
+  Node 3 goes up and wait for 5 sec before next iteration
+Iter: 754, @nodes [1, 2, 3] => leader: 2, term: 783
+  Interface s2-eth3 goes down for 5 sec
+  Interface s2-eth3 goes up and wait for 5 sec before next iteration
+Iter: 755, @nodes [1, 2, 3] => leader: 1, term: 784
+  Node 1 goes down for 5 sec
+  Node 1 goes up and wait for 5 sec before next iteration
+Iter: 756, @nodes [1, 2, 3] => leader: 3, term: 785
+  Node 3 goes down for 5 sec
+  Node 3 goes up and wait for 5 sec before next iteration
+Iter: 757, @nodes [1, 2, 3] => leader: 1, term: 786
+  Interface s1-eth3 goes down for 5 sec
+  Interface s1-eth3 goes up and wait for 5 sec before next iteration
+Iter: 758, @nodes [1, 2, 3] => leader: 3, term: 787
+  Node 3 goes down for 5 sec
+  Node 3 goes up and wait for 5 sec before next iteration
+Iter: 759, @nodes [1, 2, 3] => leader: 1, term: 788
+  Interface s1-eth3 goes down for 5 sec
+  Interface s1-eth3 goes up and wait for 5 sec before next iteration
+Iter: 760, @nodes [1, 2, 3] => leader: 3, term: 789
+  Node 3 goes down for 5 sec
+  Node 3 goes up and wait for 5 sec before next iteration
+Iter: 761, @nodes [1, 2, 3] => leader: 1, term: 790
+  Node 1 goes down for 5 sec
+  Node 1 goes up and wait for 5 sec before next iteration
+Iter: 762, @nodes [1, 2, 3] => leader: 3, term: 791
+  Interface s3-eth2 goes down for 5 sec
+  Interface s3-eth2 goes up and wait for 5 sec before next iteration
+Iter: 763, @nodes [1, 2, 3] => leader: 1, term: 792
+  Node 1 goes down for 5 sec
+  Node 1 goes up and wait for 5 sec before next iteration
+Iter: 764, @nodes [1, 2, 3] => leader: 3, term: 793
+  Interface s3-eth3 goes down for 5 sec
+  Interface s3-eth3 goes up and wait for 5 sec before next iteration
+Iter: 765, @nodes [1, 2, 3] => leader: 2, term: 794
+  Node 2 goes down for 5 sec
+  Node 2 goes up and wait for 5 sec before next iteration
+Iter: 766, @nodes [1, 2, 3] => leader: 3, term: 795
+  Node 3 goes down for 5 sec
+  Node 3 goes up and wait for 5 sec before next iteration
+Iter: 767, @nodes [1, 2, 3] => leader: 2, term: 796
+  Interface s2-eth3 goes down for 5 sec
+  Interface s2-eth3 goes up and wait for 5 sec before next iteration
+Iter: 768, @nodes [1, 2, 3] => leader: 1, term: 797
+  Node 1 goes down for 5 sec
+  Node 1 goes up and wait for 5 sec before next iteration
+Iter: 769, @nodes [1, 2, 3] => leader: 2, term: 798
+  Interface s2-eth2 goes down for 5 sec
+  Interface s2-eth2 goes up and wait for 5 sec before next iteration
+Iter: 770, @nodes [1, 2, 3] => leader: 3, term: 799
+  Interface s3-eth3 goes down for 5 sec
+  Interface s3-eth3 goes up and wait for 5 sec before next iteration
+Iter: 771, @nodes [1, 2, 3] => leader: 2, term: 800
+  Node 2 goes down for 5 sec
+  Node 2 goes up and wait for 5 sec before next iteration
+Iter: 772, @nodes [1, 2, 3] => leader: 3, term: 801
+  Node 3 goes down for 5 sec
+  Node 3 goes up and wait for 5 sec before next iteration
+Iter: 773, @nodes [1, 2, 3] => leader: 2, term: 802
+  Interface s2-eth2 goes down for 5 sec
+  Interface s2-eth2 goes up and wait for 5 sec before next iteration
+Iter: 774, @nodes [1, 2, 3] => leader: 3, term: 803
+  Node 3 goes down for 5 sec
+  Node 3 goes up and wait for 5 sec before next iteration
+Iter: 775, @nodes [1, 2, 3] => leader: 1, term: 804
+  Interface s1-eth3 goes down for 5 sec
+  Interface s1-eth3 goes up and wait for 5 sec before next iteration
+Iter: 776, @nodes [1, 2, 3] => leader: 3, term: 805
+  Node 3 goes down for 5 sec
+  Node 3 goes up and wait for 5 sec before next iteration
+Iter: 777, @nodes [1, 2, 3] => leader: 2, term: 807
+  Interface s2-eth3 goes down for 5 sec
+  Interface s2-eth3 goes up and wait for 5 sec before next iteration
+Iter: 778, @nodes [1, 2, 3] => leader: 1, term: 808
+  Interface s1-eth2 goes down for 5 sec
+  Interface s1-eth2 goes up and wait for 5 sec before next iteration
+Iter: 779, @nodes [1, 2, 3] => leader: 2, term: 809
+  Node 2 goes down for 5 sec
+  Node 2 goes up and wait for 5 sec before next iteration
+Iter: 780, @nodes [1, 2, 3] => leader: 3, term: 810
+  Node 3 goes down for 5 sec
+  Node 3 goes up and wait for 5 sec before next iteration
+Iter: 781, @nodes [1, 2, 3] => leader: 1, term: 811
+  Node 1 goes down for 5 sec
+  Node 1 goes up and wait for 5 sec before next iteration
+Iter: 782, @nodes [1, 2, 3] => leader: 2, term: 812
+  Node 2 goes down for 5 sec
+  Node 2 goes up and wait for 5 sec before next iteration
+Iter: 783, @nodes [1, 2, 3] => leader: 1, term: 814
+  Interface s1-eth3 goes down for 5 sec
+  Interface s1-eth3 goes up and wait for 5 sec before next iteration
+Iter: 784, @nodes [1, 2, 3] => leader: 3, term: 815
+  Node 3 goes down for 5 sec
+  Node 3 goes up and wait for 5 sec before next iteration
+Iter: 785, @nodes [1, 2, 3] => leader: 1, term: 816
+  Node 1 goes down for 5 sec
+  Node 1 goes up and wait for 5 sec before next iteration
+Iter: 786, @nodes [1, 2, 3] => leader: 2, term: 817
+  Node 2 goes down for 5 sec
+  Node 2 goes up and wait for 5 sec before next iteration
+Iter: 787, @nodes [1, 2, 3] => leader: 1, term: 818
+  Node 1 goes down for 5 sec
+  Node 1 goes up and wait for 5 sec before next iteration
+Iter: 788, @nodes [1, 2, 3] => leader: 3, term: 819
+  Node 3 goes down for 5 sec
+  Node 3 goes up and wait for 5 sec before next iteration
+Iter: 789, @nodes [1, 2, 3] => leader: 1, term: 820
+  Node 1 goes down for 5 sec
+  Node 1 goes up and wait for 5 sec before next iteration
+Iter: 790, @nodes [1, 2, 3] => leader: 2, term: 821
+  Node 2 goes down for 5 sec
+  Node 2 goes up and wait for 5 sec before next iteration
+Iter: 791, @nodes [1, 2, 3] => leader: 3, term: 822
+  Interface s3-eth3 goes down for 5 sec
+  Interface s3-eth3 goes up and wait for 5 sec before next iteration
+Iter: 792, @nodes [1, 2, 3] => leader: 2, term: 823
+  Interface s2-eth3 goes down for 5 sec
+  Interface s2-eth3 goes up and wait for 5 sec before next iteration
+Iter: 793, @nodes [1, 2, 3] => leader: 1, term: 824
+  Node 1 goes down for 5 sec
+  Node 1 goes up and wait for 5 sec before next iteration
+Iter: 794, @nodes [1, 2, 3] => leader: 3, term: 825
+  Node 3 goes down for 5 sec
+  Node 3 goes up and wait for 5 sec before next iteration
+Iter: 795, @nodes [1, 2, 3] => leader: 2, term: 827
+  Interface s2-eth3 goes down for 5 sec
+  Interface s2-eth3 goes up and wait for 5 sec before next iteration
+Iter: 796, @nodes [1, 2, 3] => leader: 1, term: 828
+  Node 1 goes down for 5 sec
+  Node 1 goes up and wait for 5 sec before next iteration
+Iter: 797, @nodes [1, 2, 3] => leader: 2, term: 829
+  Interface s2-eth2 goes down for 5 sec
+  Interface s2-eth2 goes up and wait for 5 sec before next iteration
+Iter: 798, @nodes [1, 2, 3] => leader: 3, term: 830
+  Node 3 goes down for 5 sec
+  Node 3 goes up and wait for 5 sec before next iteration
+Iter: 799, @nodes [1, 2, 3] => leader: 1, term: 831
+  Node 1 goes down for 5 sec
+  Node 1 goes up and wait for 5 sec before next iteration
+Iter: 800, @nodes [1, 2, 3] => leader: 2, term: 832
+  Node 2 goes down for 5 sec
+  Node 2 goes up and wait for 5 sec before next iteration
+Iter: 801, @nodes [1, 2, 3] => leader: 1, term: 833
+  Interface s1-eth3 goes down for 5 sec
+  Interface s1-eth3 goes up and wait for 5 sec before next iteration
+Iter: 802, @nodes [1, 2, 3] => leader: 3, term: 834
+  Interface s3-eth3 goes down for 5 sec
+  Interface s3-eth3 goes up and wait for 5 sec before next iteration
+Iter: 803, @nodes [1, 2, 3] => leader: 2, term: 835
+  Interface s2-eth3 goes down for 5 sec
+  Interface s2-eth3 goes up and wait for 5 sec before next iteration
+Iter: 804, @nodes [1, 2, 3] => leader: 1, term: 836
+  Interface s1-eth3 goes down for 5 sec
+  Interface s1-eth3 goes up and wait for 5 sec before next iteration
+Iter: 805, @nodes [1, 2, 3] => leader: 3, term: 837
+  Node 3 goes down for 5 sec
+  Node 3 goes up and wait for 5 sec before next iteration
+Iter: 806, @nodes [1, 2, 3] => leader: 2, term: 838
+  Interface s2-eth2 goes down for 5 sec
+  Interface s2-eth2 goes up and wait for 5 sec before next iteration
+Iter: 807, @nodes [1, 2, 3] => leader: 3, term: 839
+  Node 3 goes down for 5 sec
+  Node 3 goes up and wait for 5 sec before next iteration
+Iter: 808, @nodes [1, 2, 3] => leader: 2, term: 840
+  Node 2 goes down for 5 sec
+  Node 2 goes up and wait for 5 sec before next iteration
+Iter: 809, @nodes [1, 2, 3] => leader: 1, term: 841
+  Interface s1-eth3 goes down for 5 sec
+  Interface s1-eth3 goes up and wait for 5 sec before next iteration
+Iter: 810, @nodes [1, 2, 3] => leader: 3, term: 842
+  Interface s3-eth3 goes down for 5 sec
+  Interface s3-eth3 goes up and wait for 5 sec before next iteration
+Iter: 811, @nodes [1, 2, 3] => leader: 2, term: 843
+  Interface s2-eth3 goes down for 5 sec
+  Interface s2-eth3 goes up and wait for 5 sec before next iteration
+Iter: 812, @nodes [1, 2, 3] => leader: 1, term: 844
+  Interface s1-eth3 goes down for 5 sec
+  Interface s1-eth3 goes up and wait for 5 sec before next iteration
+Iter: 813, @nodes [1, 2, 3] => leader: 3, term: 845
+  Node 3 goes down for 5 sec
+  Node 3 goes up and wait for 5 sec before next iteration
+Iter: 814, @nodes [1, 2, 3] => leader: 1, term: 846
+  Node 1 goes down for 5 sec
+  Node 1 goes up and wait for 5 sec before next iteration
+Iter: 815, @nodes [1, 2, 3] => leader: 3, term: 847
+  Interface s3-eth3 goes down for 5 sec
+  Interface s3-eth3 goes up and wait for 5 sec before next iteration
+Iter: 816, @nodes [1, 2, 3] => leader: 2, term: 848
+  Interface s2-eth3 goes down for 5 sec
+  Interface s2-eth3 goes up and wait for 5 sec before next iteration
+Iter: 817, @nodes [1, 2, 3] => leader: 1, term: 849
+  Interface s1-eth2 goes down for 5 sec
+  Interface s1-eth2 goes up and wait for 5 sec before next iteration
+Iter: 818, @nodes [1, 2, 3] => leader: 2, term: 850
+  Interface s2-eth3 goes down for 5 sec
+  Interface s2-eth3 goes up and wait for 5 sec before next iteration
+Iter: 819, @nodes [1, 2, 3] => leader: 1, term: 851
+  Interface s1-eth2 goes down for 5 sec
+  Interface s1-eth2 goes up and wait for 5 sec before next iteration
+Iter: 820, @nodes [1, 2, 3] => leader: 2, term: 852
+  Interface s2-eth2 goes down for 5 sec
+  Interface s2-eth2 goes up and wait for 5 sec before next iteration
+Iter: 821, @nodes [1, 2, 3] => leader: 3, term: 853
+  Interface s3-eth2 goes down for 5 sec
+  Interface s3-eth2 goes up and wait for 5 sec before next iteration
+Iter: 822, @nodes [1, 2, 3] => leader: 1, term: 854
+  Interface s1-eth3 goes down for 5 sec
+  Interface s1-eth3 goes up and wait for 5 sec before next iteration
+Iter: 823, @nodes [1, 2, 3] => leader: 3, term: 855
+  Interface s3-eth2 goes down for 5 sec
+  Interface s3-eth2 goes up and wait for 5 sec before next iteration
+Iter: 824, @nodes [1, 2, 3] => leader: 1, term: 856
+  Interface s1-eth2 goes down for 5 sec
+  Interface s1-eth2 goes up and wait for 5 sec before next iteration
+Iter: 825, @nodes [1, 2, 3] => leader: 2, term: 857
+  Node 2 goes down for 5 sec
+  Node 2 goes up and wait for 5 sec before next iteration
+Iter: 826, @nodes [1, 2, 3] => leader: 1, term: 859
+  Node 1 goes down for 5 sec
+  Node 1 goes up and wait for 5 sec before next iteration
+Iter: 827, @nodes [1, 2, 3] => leader: 3, term: 860
+  Interface s3-eth2 goes down for 5 sec
+  Interface s3-eth2 goes up and wait for 5 sec before next iteration
+Iter: 828, @nodes [1, 2, 3] => leader: 1, term: 861
+  Interface s1-eth3 goes down for 5 sec
+  Interface s1-eth3 goes up and wait for 5 sec before next iteration
+Iter: 829, @nodes [1, 2, 3] => leader: 3, term: 862
+  Interface s3-eth2 goes down for 5 sec
+  Interface s3-eth2 goes up and wait for 5 sec before next iteration
+Iter: 830, @nodes [1, 2, 3] => leader: 1, term: 863
+  Node 1 goes down for 5 sec
+  Node 1 goes up and wait for 5 sec before next iteration
+Iter: 831, @nodes [1, 2, 3] => leader: 2, term: 864
+  Interface s2-eth2 goes down for 5 sec
+  Interface s2-eth2 goes up and wait for 5 sec before next iteration
+Iter: 832, @nodes [1, 2, 3] => leader: 3, term: 865
+  Node 3 goes down for 5 sec
+  Node 3 goes up and wait for 5 sec before next iteration
+Iter: 833, @nodes [1, 2, 3] => leader: 2, term: 866
+  Node 2 goes down for 5 sec
+  Node 2 goes up and wait for 5 sec before next iteration
+Iter: 834, @nodes [1, 2, 3] => leader: 3, term: 867
+  Node 3 goes down for 5 sec
+  Node 3 goes up and wait for 5 sec before next iteration
+Iter: 835, @nodes [1, 2, 3] => leader: 2, term: 868
+  Interface s2-eth3 goes down for 5 sec
+  Interface s2-eth3 goes up and wait for 5 sec before next iteration
+Iter: 836, @nodes [1, 2, 3] => leader: 1, term: 869
+  Interface s1-eth3 goes down for 5 sec
+  Interface s1-eth3 goes up and wait for 5 sec before next iteration
+Iter: 837, @nodes [1, 2, 3] => leader: 3, term: 870
+  Node 3 goes down for 5 sec
+  Node 3 goes up and wait for 5 sec before next iteration
+Iter: 838, @nodes [1, 2, 3] => leader: 2, term: 871
+  Node 2 goes down for 5 sec
+  Node 2 goes up and wait for 5 sec before next iteration
+Iter: 839, @nodes [1, 2, 3] => leader: 1, term: 872
+  Node 1 goes down for 5 sec
+  Node 1 goes up and wait for 5 sec before next iteration
+Iter: 840, @nodes [1, 2, 3] => leader: 3, term: 873
+  Interface s3-eth3 goes down for 5 sec
+  Interface s3-eth3 goes up and wait for 5 sec before next iteration
+Iter: 841, @nodes [1, 2, 3] => leader: 2, term: 874
+  Interface s2-eth3 goes down for 5 sec
+  Interface s2-eth3 goes up and wait for 5 sec before next iteration
+Iter: 842, @nodes [1, 2, 3] => leader: 1, term: 875
+  Interface s1-eth3 goes down for 5 sec
+  Interface s1-eth3 goes up and wait for 5 sec before next iteration
+Iter: 843, @nodes [1, 2, 3] => leader: 3, term: 876
+  Interface s3-eth3 goes down for 5 sec
+  Interface s3-eth3 goes up and wait for 5 sec before next iteration
+Iter: 844, @nodes [1, 2, 3] => leader: 2, term: 877
+  Node 2 goes down for 5 sec
+  Node 2 goes up and wait for 5 sec before next iteration
+Iter: 845, @nodes [1, 2, 3] => leader: 3, term: 878
+  Node 3 goes down for 5 sec
+  Node 3 goes up and wait for 5 sec before next iteration
+Iter: 846, @nodes [1, 2, 3] => leader: 2, term: 879
+  Node 2 goes down for 5 sec
+  Node 2 goes up and wait for 5 sec before next iteration
+Iter: 847, @nodes [1, 2, 3] => leader: 3, term: 880
+  Interface s3-eth2 goes down for 5 sec
+  Interface s3-eth2 goes up and wait for 5 sec before next iteration
+Iter: 848, @nodes [1, 2, 3] => leader: 1, term: 881
+  Node 1 goes down for 5 sec
+  Node 1 goes up and wait for 5 sec before next iteration
+Iter: 849, @nodes [1, 2, 3] => leader: 2, term: 882
+  Node 2 goes down for 5 sec
+  Node 2 goes up and wait for 5 sec before next iteration
+Iter: 850, @nodes [1, 2, 3] => leader: 3, term: 883
+  Node 3 goes down for 5 sec
+  Node 3 goes up and wait for 5 sec before next iteration
+Iter: 851, @nodes [1, 2, 3] => leader: 2, term: 884
+  Interface s2-eth3 goes down for 5 sec
+  Interface s2-eth3 goes up and wait for 5 sec before next iteration
+Iter: 852, @nodes [1, 2, 3] => leader: 1, term: 885
+  Node 1 goes down for 5 sec
+  Node 1 goes up and wait for 5 sec before next iteration
+Iter: 853, @nodes [1, 2, 3] => leader: 3, term: 886
+  Interface s3-eth2 goes down for 5 sec
+  Interface s3-eth2 goes up and wait for 5 sec before next iteration
+Iter: 854, @nodes [1, 2, 3] => leader: 1, term: 887
+  Node 1 goes down for 5 sec
+  Node 1 goes up and wait for 5 sec before next iteration
+Iter: 855, @nodes [1, 2, 3] => leader: 3, term: 888
+  Interface s3-eth3 goes down for 5 sec
+  Interface s3-eth3 goes up and wait for 5 sec before next iteration
+Iter: 856, @nodes [1, 2, 3] => leader: 2, term: 889
+  Interface s2-eth3 goes down for 5 sec
+  Interface s2-eth3 goes up and wait for 5 sec before next iteration
+Iter: 857, @nodes [1, 2, 3] => leader: 1, term: 890
+  Node 1 goes down for 5 sec
+  Node 1 goes up and wait for 5 sec before next iteration
+Iter: 858, @nodes [1, 2, 3] => leader: 3, term: 891
+  Node 3 goes down for 5 sec
+  Node 3 goes up and wait for 5 sec before next iteration
+Iter: 859, @nodes [1, 2, 3] => leader: 2, term: 892
+  Interface s2-eth3 goes down for 5 sec
+  Interface s2-eth3 goes up and wait for 5 sec before next iteration
+Iter: 860, @nodes [1, 2, 3] => leader: 1, term: 893
+  Node 1 goes down for 5 sec
+  Node 1 goes up and wait for 5 sec before next iteration
+Iter: 861, @nodes [1, 2, 3] => leader: 2, term: 894
+  Node 2 goes down for 5 sec
+  Node 2 goes up and wait for 5 sec before next iteration
+Iter: 862, @nodes [1, 2, 3] => leader: 3, term: 895
+  Node 3 goes down for 5 sec
+  Node 3 goes up and wait for 5 sec before next iteration
+Iter: 863, @nodes [1, 2, 3] => leader: 2, term: 896
+  Interface s2-eth2 goes down for 5 sec
+  Interface s2-eth2 goes up and wait for 5 sec before next iteration
+Iter: 864, @nodes [1, 2, 3] => leader: 3, term: 897
+  Interface s3-eth3 goes down for 5 sec
+  Interface s3-eth3 goes up and wait for 5 sec before next iteration
+Iter: 865, @nodes [1, 2, 3] => leader: 2, term: 898
+  Node 2 goes down for 5 sec
+  Node 2 goes up and wait for 5 sec before next iteration
+Iter: 866, @nodes [1, 2, 3] => leader: 1, term: 899
+  Interface s1-eth2 goes down for 5 sec
+  Interface s1-eth2 goes up and wait for 5 sec before next iteration
+Iter: 867, @nodes [1, 2, 3] => leader: 2, term: 900
+  Node 2 goes down for 5 sec
+  Node 2 goes up and wait for 5 sec before next iteration
+Iter: 868, @nodes [1, 2, 3] => leader: 3, term: 901
+  Node 3 goes down for 5 sec
+  Node 3 goes up and wait for 5 sec before next iteration
+Iter: 869, @nodes [1, 2, 3] => leader: 1, term: 902
+  Interface s1-eth3 goes down for 5 sec
+  Interface s1-eth3 goes up and wait for 5 sec before next iteration
+Iter: 870, @nodes [1, 2, 3] => leader: 3, term: 903
+  Node 3 goes down for 5 sec
+  Node 3 goes up and wait for 5 sec before next iteration
+Iter: 871, @nodes [1, 2, 3] => leader: 2, term: 904
+  Interface s2-eth2 goes down for 5 sec
+  Interface s2-eth2 goes up and wait for 5 sec before next iteration
+Iter: 872, @nodes [1, 2, 3] => leader: 3, term: 905
+  Node 3 goes down for 5 sec
+  Node 3 goes up and wait for 5 sec before next iteration
+Iter: 873, @nodes [1, 2, 3] => leader: 2, term: 907
+  Interface s2-eth3 goes down for 5 sec
+  Interface s2-eth3 goes up and wait for 5 sec before next iteration
+Iter: 874, @nodes [1, 2, 3] => leader: 1, term: 908
+  Node 1 goes down for 5 sec
+  Node 1 goes up and wait for 5 sec before next iteration
+Iter: 875, @nodes [1, 2, 3] => leader: 2, term: 909
+  Interface s2-eth2 goes down for 5 sec
+  Interface s2-eth2 goes up and wait for 5 sec before next iteration
+Iter: 876, @nodes [1, 2, 3] => leader: 3, term: 910
+  Interface s3-eth2 goes down for 5 sec
+  Interface s3-eth2 goes up and wait for 5 sec before next iteration
+Iter: 877, @nodes [1, 2, 3] => leader: 1, term: 911
+  Interface s1-eth2 goes down for 5 sec
+  Interface s1-eth2 goes up and wait for 5 sec before next iteration
+Iter: 878, @nodes [1, 2, 3] => leader: 2, term: 912
+  Interface s2-eth3 goes down for 5 sec
+  Interface s2-eth3 goes up and wait for 5 sec before next iteration
+Iter: 879, @nodes [1, 2, 3] => leader: 1, term: 913
+  Node 1 goes down for 5 sec
+  Node 1 goes up and wait for 5 sec before next iteration
+Iter: 880, @nodes [1, 2, 3] => leader: 3, term: 915
+  Interface s3-eth3 goes down for 5 sec
+  Interface s3-eth3 goes up and wait for 5 sec before next iteration
+Iter: 881, @nodes [1, 2, 3] => leader: 2, term: 916
+  Node 2 goes down for 5 sec
+  Node 2 goes up and wait for 5 sec before next iteration
+Iter: 882, @nodes [1, 2, 3] => leader: 1, term: 917
+  Node 1 goes down for 5 sec
+  Node 1 goes up and wait for 5 sec before next iteration
+Iter: 883, @nodes [1, 2, 3] => leader: 3, term: 918
+  Node 3 goes down for 5 sec
+  Node 3 goes up and wait for 5 sec before next iteration
+Iter: 884, @nodes [1, 2, 3] => leader: 2, term: 919
+  Node 2 goes down for 5 sec
+  Node 2 goes up and wait for 5 sec before next iteration
+Iter: 885, @nodes [1, 2, 3] => leader: 1, term: 920
+  Node 1 goes down for 5 sec
+  Node 1 goes up and wait for 5 sec before next iteration
+Iter: 886, @nodes [1, 2, 3] => leader: 3, term: 921
+  Interface s3-eth3 goes down for 5 sec
+  Interface s3-eth3 goes up and wait for 5 sec before next iteration
+Iter: 887, @nodes [1, 2, 3] => leader: 2, term: 922
+  Interface s2-eth2 goes down for 5 sec
+  Interface s2-eth2 goes up and wait for 5 sec before next iteration
+Iter: 888, @nodes [1, 2, 3] => leader: 3, term: 923
+  Interface s3-eth3 goes down for 5 sec
+  Interface s3-eth3 goes up and wait for 5 sec before next iteration
+Iter: 889, @nodes [1, 2, 3] => leader: 2, term: 924
+  Interface s2-eth3 goes down for 5 sec
+  Interface s2-eth3 goes up and wait for 5 sec before next iteration
+Iter: 890, @nodes [1, 2, 3] => leader: 1, term: 925
+  Node 1 goes down for 5 sec
+  Node 1 goes up and wait for 5 sec before next iteration
+Iter: 891, @nodes [1, 2, 3] => leader: 3, term: 926
+  Interface s3-eth2 goes down for 5 sec
+  Interface s3-eth2 goes up and wait for 5 sec before next iteration
+Iter: 892, @nodes [1, 2, 3] => leader: 1, term: 927
+  Interface s1-eth3 goes down for 5 sec
+  Interface s1-eth3 goes up and wait for 5 sec before next iteration
+Iter: 893, @nodes [1, 2, 3] => leader: 3, term: 928
+  Node 3 goes down for 5 sec
+  Node 3 goes up and wait for 5 sec before next iteration
+Iter: 894, @nodes [1, 2, 3] => leader: 2, term: 929
+  Node 2 goes down for 5 sec
+  Node 2 goes up and wait for 5 sec before next iteration
+Iter: 895, @nodes [1, 2, 3] => leader: 3, term: 930
+  Node 3 goes down for 5 sec
+  Node 3 goes up and wait for 5 sec before next iteration
+Iter: 896, @nodes [1, 2, 3] => leader: 2, term: 931
+  Interface s2-eth2 goes down for 5 sec
+  Interface s2-eth2 goes up and wait for 5 sec before next iteration
+Iter: 897, @nodes [1, 2, 3] => leader: 3, term: 932
+  Node 3 goes down for 5 sec
+  Node 3 goes up and wait for 5 sec before next iteration
+Iter: 898, @nodes [1, 2, 3] => leader: 2, term: 933
+  Interface s2-eth2 goes down for 5 sec
+  Interface s2-eth2 goes up and wait for 5 sec before next iteration
+Iter: 899, @nodes [1, 2, 3] => leader: 3, term: 934
+  Node 3 goes down for 5 sec
+  Node 3 goes up and wait for 5 sec before next iteration
+Iter: 900, @nodes [1, 2, 3] => leader: 2, term: 936
+  Interface s2-eth2 goes down for 5 sec
+  Interface s2-eth2 goes up and wait for 5 sec before next iteration
+Iter: 901, @nodes [1, 2, 3] => leader: 3, term: 937
+  Interface s3-eth2 goes down for 5 sec
+  Interface s3-eth2 goes up and wait for 5 sec before next iteration
+Iter: 902, @nodes [1, 2, 3] => leader: 1, term: 938
+  Interface s1-eth3 goes down for 5 sec
+  Interface s1-eth3 goes up and wait for 5 sec before next iteration
+Iter: 903, @nodes [1, 2, 3] => leader: 3, term: 939
+  Node 3 goes down for 5 sec
+  Node 3 goes up and wait for 5 sec before next iteration
+Iter: 904, @nodes [1, 2, 3] => leader: 1, term: 940
+  Node 1 goes down for 5 sec
+  Node 1 goes up and wait for 5 sec before next iteration
+Iter: 905, @nodes [1, 2, 3] => leader: 3, term: 941
+  Node 3 goes down for 5 sec
+  Node 3 goes up and wait for 5 sec before next iteration
+Iter: 906, @nodes [1, 2, 3] => leader: 1, term: 942
+  Node 1 goes down for 5 sec
+  Node 1 goes up and wait for 5 sec before next iteration
+Iter: 907, @nodes [1, 2, 3] => leader: 3, term: 943
+  Interface s3-eth2 goes down for 5 sec
+  Interface s3-eth2 goes up and wait for 5 sec before next iteration
+Iter: 908, @nodes [1, 2, 3] => leader: 1, term: 944
+  Interface s1-eth2 goes down for 5 sec
+  Interface s1-eth2 goes up and wait for 5 sec before next iteration
+Iter: 909, @nodes [1, 2, 3] => leader: 2, term: 945
+  Interface s2-eth3 goes down for 5 sec
+  Interface s2-eth3 goes up and wait for 5 sec before next iteration
+Iter: 910, @nodes [1, 2, 3] => leader: 1, term: 946
+  Node 1 goes down for 5 sec
+  Node 1 goes up and wait for 5 sec before next iteration
+Iter: 911, @nodes [1, 2, 3] => leader: 2, term: 947
+  Node 2 goes down for 5 sec
+  Node 2 goes up and wait for 5 sec before next iteration
+Iter: 912, @nodes [1, 2, 3] => leader: 1, term: 948
+  Interface s1-eth2 goes down for 5 sec
+  Interface s1-eth2 goes up and wait for 5 sec before next iteration
+Iter: 913, @nodes [1, 2, 3] => leader: 2, term: 949
+  Interface s2-eth3 goes down for 5 sec
+  Interface s2-eth3 goes up and wait for 5 sec before next iteration
+Iter: 914, @nodes [1, 2, 3] => leader: 1, term: 950
+  Interface s1-eth3 goes down for 5 sec
+  Interface s1-eth3 goes up and wait for 5 sec before next iteration
+Iter: 915, @nodes [1, 2, 3] => leader: 3, term: 951
+  Node 3 goes down for 5 sec
+  Node 3 goes up and wait for 5 sec before next iteration
+Iter: 916, @nodes [1, 2, 3] => leader: 2, term: 953
+  Node 2 goes down for 5 sec
+  Node 2 goes up and wait for 5 sec before next iteration
+Iter: 917, @nodes [1, 2, 3] => leader: 1, term: 954
+  Node 1 goes down for 5 sec
+  Node 1 goes up and wait for 5 sec before next iteration
+Iter: 918, @nodes [1, 2, 3] => leader: 3, term: 955
+  Node 3 goes down for 5 sec
+  Node 3 goes up and wait for 5 sec before next iteration
+Iter: 919, @nodes [1, 2, 3] => leader: 2, term: 956
+  Node 2 goes down for 5 sec
+  Node 2 goes up and wait for 5 sec before next iteration
+Iter: 920, @nodes [1, 2, 3] => leader: 1, term: 957
+  Node 1 goes down for 5 sec
+  Node 1 goes up and wait for 5 sec before next iteration
+Iter: 921, @nodes [1, 2, 3] => leader: 3, term: 958
+  Interface s3-eth3 goes down for 5 sec
+  Interface s3-eth3 goes up and wait for 5 sec before next iteration
+Iter: 922, @nodes [1, 2, 3] => leader: 2, term: 959
+  Node 2 goes down for 5 sec
+  Node 2 goes up and wait for 5 sec before next iteration
+Iter: 923, @nodes [1, 2, 3] => leader: 1, term: 960
+  Node 1 goes down for 5 sec
+  Node 1 goes up and wait for 5 sec before next iteration
+Iter: 924, @nodes [1, 2, 3] => leader: 2, term: 961
+  Node 2 goes down for 5 sec
+  Node 2 goes up and wait for 5 sec before next iteration
+Iter: 925, @nodes [1, 2, 3] => leader: 1, term: 962
+  Interface s1-eth2 goes down for 5 sec
+  Interface s1-eth2 goes up and wait for 5 sec before next iteration
+Iter: 926, @nodes [1, 2, 3] => leader: 2, term: 963
+  Node 2 goes down for 5 sec
+  Node 2 goes up and wait for 5 sec before next iteration
+Iter: 927, @nodes [1, 2, 3] => leader: 3, term: 964
+  Interface s3-eth3 goes down for 5 sec
+  Interface s3-eth3 goes up and wait for 5 sec before next iteration
+Iter: 928, @nodes [1, 2, 3] => leader: 2, term: 965
+  Interface s2-eth3 goes down for 5 sec
+  Interface s2-eth3 goes up and wait for 5 sec before next iteration
+Iter: 929, @nodes [1, 2, 3] => leader: 1, term: 966
+  Interface s1-eth3 goes down for 5 sec
+  Interface s1-eth3 goes up and wait for 5 sec before next iteration
+Iter: 930, @nodes [1, 2, 3] => leader: 3, term: 967
+  Interface s3-eth3 goes down for 5 sec
+  Interface s3-eth3 goes up and wait for 5 sec before next iteration
+Iter: 931, @nodes [1, 2, 3] => leader: 2, term: 968
+  Node 2 goes down for 5 sec
+  Node 2 goes up and wait for 5 sec before next iteration
+Iter: 932, @nodes [1, 2, 3] => leader: 3, term: 969
+  Interface s3-eth3 goes down for 5 sec
+  Interface s3-eth3 goes up and wait for 5 sec before next iteration
+Iter: 933, @nodes [1, 2, 3] => leader: 2, term: 970
+  Node 2 goes down for 5 sec
+  Node 2 goes up and wait for 5 sec before next iteration
+Iter: 934, @nodes [1, 2, 3] => leader: 3, term: 971
+  Interface s3-eth2 goes down for 5 sec
+  Interface s3-eth2 goes up and wait for 5 sec before next iteration
+Iter: 935, @nodes [1, 2, 3] => leader: 1, term: 972
+  Interface s1-eth3 goes down for 5 sec
+  Interface s1-eth3 goes up and wait for 5 sec before next iteration
+Iter: 936, @nodes [1, 2, 3] => leader: 3, term: 973
+  Interface s3-eth3 goes down for 5 sec
+  Interface s3-eth3 goes up and wait for 5 sec before next iteration
+Iter: 937, @nodes [1, 2, 3] => leader: 2, term: 974
+  Node 2 goes down for 5 sec
+  Node 2 goes up and wait for 5 sec before next iteration
+Iter: 938, @nodes [1, 2, 3] => leader: 1, term: 975
+  Interface s1-eth2 goes down for 5 sec
+  Interface s1-eth2 goes up and wait for 5 sec before next iteration
+Iter: 939, @nodes [1, 2, 3] => leader: 2, term: 976
+  Node 2 goes down for 5 sec
+  Node 2 goes up and wait for 5 sec before next iteration
+Iter: 940, @nodes [1, 2, 3] => leader: 1, term: 977
+  Interface s1-eth3 goes down for 5 sec
+  Interface s1-eth3 goes up and wait for 5 sec before next iteration
+Iter: 941, @nodes [1, 2, 3] => leader: 3, term: 978
+  Interface s3-eth3 goes down for 5 sec
+  Interface s3-eth3 goes up and wait for 5 sec before next iteration
+Iter: 942, @nodes [1, 2, 3] => leader: 2, term: 979
+  Node 2 goes down for 5 sec
+  Node 2 goes up and wait for 5 sec before next iteration
+Iter: 943, @nodes [1, 2, 3] => leader: 3, term: 980
+  Node 3 goes down for 5 sec
+  Node 3 goes up and wait for 5 sec before next iteration
+Iter: 944, @nodes [1, 2, 3] => leader: 1, term: 981
+  Interface s1-eth3 goes down for 5 sec
+  Interface s1-eth3 goes up and wait for 5 sec before next iteration
+Iter: 945, @nodes [1, 2, 3] => leader: 3, term: 982
+  Interface s3-eth3 goes down for 5 sec
+  Interface s3-eth3 goes up and wait for 5 sec before next iteration
+Iter: 946, @nodes [1, 2, 3] => leader: 2, term: 983
+  Node 2 goes down for 5 sec
+  Node 2 goes up and wait for 5 sec before next iteration
+Iter: 947, @nodes [1, 2, 3] => leader: 1, term: 984
+  Node 1 goes down for 5 sec
+  Node 1 goes up and wait for 5 sec before next iteration
+Iter: 948, @nodes [1, 2, 3] => leader: 2, term: 985
+  Interface s2-eth2 goes down for 5 sec
+  Interface s2-eth2 goes up and wait for 5 sec before next iteration
+Iter: 949, @nodes [1, 2, 3] => leader: 3, term: 986
+  Interface s3-eth3 goes down for 5 sec
+  Interface s3-eth3 goes up and wait for 5 sec before next iteration
+Iter: 950, @nodes [1, 2, 3] => leader: 2, term: 987
+  Node 2 goes down for 5 sec
+  Node 2 goes up and wait for 5 sec before next iteration
+Iter: 951, @nodes [1, 2, 3] => leader: 1, term: 988
+  Interface s1-eth3 goes down for 5 sec
+  Interface s1-eth3 goes up and wait for 5 sec before next iteration
+Iter: 952, @nodes [1, 2, 3] => leader: 3, term: 989
+  Node 3 goes down for 5 sec
+  Node 3 goes up and wait for 5 sec before next iteration
+Iter: 953, @nodes [1, 2, 3] => leader: 1, term: 990
+  Node 1 goes down for 5 sec
+  Node 1 goes up and wait for 5 sec before next iteration
+Iter: 954, @nodes [1, 2, 3] => leader: 2, term: 991
+  Interface s2-eth2 goes down for 5 sec
+  Interface s2-eth2 goes up and wait for 5 sec before next iteration
+Iter: 955, @nodes [1, 2, 3] => leader: 3, term: 992
+  Interface s3-eth3 goes down for 5 sec
+  Interface s3-eth3 goes up and wait for 5 sec before next iteration
+Iter: 956, @nodes [1, 2, 3] => leader: 2, term: 993
+  Interface s2-eth2 goes down for 5 sec
+  Interface s2-eth2 goes up and wait for 5 sec before next iteration
+Iter: 957, @nodes [1, 2, 3] => leader: 3, term: 994
+  Interface s3-eth2 goes down for 5 sec
+  Interface s3-eth2 goes up and wait for 5 sec before next iteration
+Iter: 958, @nodes [1, 2, 3] => leader: 1, term: 995
+  Interface s1-eth2 goes down for 5 sec
+  Interface s1-eth2 goes up and wait for 5 sec before next iteration
+Iter: 959, @nodes [1, 2, 3] => leader: 2, term: 996
+  Node 2 goes down for 5 sec
+  Node 2 goes up and wait for 5 sec before next iteration
+Iter: 960, @nodes [1, 2, 3] => leader: 1, term: 998
+  Node 1 goes down for 5 sec
+  Node 1 goes up and wait for 5 sec before next iteration
+Iter: 961, @nodes [1, 2, 3] => leader: 3, term: 999
+  Interface s3-eth2 goes down for 5 sec
+  Interface s3-eth2 goes up and wait for 5 sec before next iteration
+Iter: 962, @nodes [1, 2, 3] => leader: 1, term: 1000
+  Interface s1-eth2 goes down for 5 sec
+  Interface s1-eth2 goes up and wait for 5 sec before next iteration
+Iter: 963, @nodes [1, 2, 3] => leader: 2, term: 1001
+  Node 2 goes down for 5 sec
+  Node 2 goes up and wait for 5 sec before next iteration
+Iter: 964, @nodes [1, 2, 3] => leader: 3, term: 1003
+  Node 3 goes down for 5 sec
+  Node 3 goes up and wait for 5 sec before next iteration
+Iter: 965, @nodes [1, 2, 3] => leader: 1, term: 1004
+  Node 1 goes down for 5 sec
+  Node 1 goes up and wait for 5 sec before next iteration
+Iter: 966, @nodes [1, 2, 3] => leader: 2, term: 1005
+  Interface s2-eth2 goes down for 5 sec
+  Interface s2-eth2 goes up and wait for 5 sec before next iteration
+Iter: 967, @nodes [1, 2, 3] => leader: 3, term: 1006
+  Node 3 goes down for 5 sec
+  Node 3 goes up and wait for 5 sec before next iteration
+Iter: 968, @nodes [1, 2, 3] => leader: 2, term: 1007
+  Interface s2-eth2 goes down for 5 sec
+  Interface s2-eth2 goes up and wait for 5 sec before next iteration
+Iter: 969, @nodes [1, 2, 3] => leader: 3, term: 1008
+  Node 3 goes down for 5 sec
+  Node 3 goes up and wait for 5 sec before next iteration
+Iter: 970, @nodes [1, 2, 3] => leader: 2, term: 1009
+  Node 2 goes down for 5 sec
+  Node 2 goes up and wait for 5 sec before next iteration
+Iter: 971, @nodes [1, 2, 3] => leader: 3, term: 1010
+  Node 3 goes down for 5 sec
+  Node 3 goes up and wait for 5 sec before next iteration
+Iter: 972, @nodes [1, 2, 3] => leader: 2, term: 1011
+  Node 2 goes down for 5 sec
+  Node 2 goes up and wait for 5 sec before next iteration
+Iter: 973, @nodes [1, 2, 3] => leader: 3, term: 1012
+  Node 3 goes down for 5 sec
+  Node 3 goes up and wait for 5 sec before next iteration
+Iter: 974, @nodes [1, 2, 3] => leader: 2, term: 1013
+  Interface s2-eth3 goes down for 5 sec
+  Interface s2-eth3 goes up and wait for 5 sec before next iteration
+Iter: 975, @nodes [1, 2, 3] => leader: 1, term: 1014
+  Interface s1-eth2 goes down for 5 sec
+  Interface s1-eth2 goes up and wait for 5 sec before next iteration
+Iter: 976, @nodes [1, 2, 3] => leader: 2, term: 1015
+  Interface s2-eth2 goes down for 5 sec
+  Interface s2-eth2 goes up and wait for 5 sec before next iteration
+Iter: 977, @nodes [1, 2, 3] => leader: 3, term: 1016
+  Interface s3-eth2 goes down for 5 sec
+  Interface s3-eth2 goes up and wait for 5 sec before next iteration
+Iter: 978, @nodes [1, 2, 3] => leader: 1, term: 1017
+  Node 1 goes down for 5 sec
+  Node 1 goes up and wait for 5 sec before next iteration
+Iter: 979, @nodes [1, 2, 3] => leader: 3, term: 1018
+  Interface s3-eth2 goes down for 5 sec
+  Interface s3-eth2 goes up and wait for 5 sec before next iteration
+Iter: 980, @nodes [1, 2, 3] => leader: 1, term: 1019
+  Interface s1-eth2 goes down for 5 sec
+  Interface s1-eth2 goes up and wait for 5 sec before next iteration
+Iter: 981, @nodes [1, 2, 3] => leader: 2, term: 1020
+  Interface s2-eth2 goes down for 5 sec
+  Interface s2-eth2 goes up and wait for 5 sec before next iteration
+Iter: 982, @nodes [1, 2, 3] => leader: 3, term: 1021
+  Interface s3-eth2 goes down for 5 sec
+  Interface s3-eth2 goes up and wait for 5 sec before next iteration
+Iter: 983, @nodes [1, 2, 3] => leader: 1, term: 1022
+  Node 1 goes down for 5 sec
+  Node 1 goes up and wait for 5 sec before next iteration
+Iter: 984, @nodes [1, 2, 3] => leader: 2, term: 1023
+  Node 2 goes down for 5 sec
+  Node 2 goes up and wait for 5 sec before next iteration
+Iter: 985, @nodes [1, 2, 3] => leader: 1, term: 1024
+  Interface s1-eth3 goes down for 5 sec
+  Interface s1-eth3 goes up and wait for 5 sec before next iteration
+Iter: 986, @nodes [1, 2, 3] => leader: 3, term: 1025
+  Interface s3-eth2 goes down for 5 sec
+  Interface s3-eth2 goes up and wait for 5 sec before next iteration
+Iter: 987, @nodes [1, 2, 3] => leader: 1, term: 1026
+  Node 1 goes down for 5 sec
+  Node 1 goes up and wait for 5 sec before next iteration
+Iter: 988, @nodes [1, 2, 3] => leader: 2, term: 1027
+  Node 2 goes down for 5 sec
+  Node 2 goes up and wait for 5 sec before next iteration
+Iter: 989, @nodes [1, 2, 3] => leader: 1, term: 1028
+  Interface s1-eth2 goes down for 5 sec
+  Interface s1-eth2 goes up and wait for 5 sec before next iteration
+Iter: 990, @nodes [1, 2, 3] => leader: 2, term: 1029
+  Interface s2-eth3 goes down for 5 sec
+  Interface s2-eth3 goes up and wait for 5 sec before next iteration
+Iter: 991, @nodes [1, 2, 3] => leader: 1, term: 1030
+  Interface s1-eth3 goes down for 5 sec
+  Interface s1-eth3 goes up and wait for 5 sec before next iteration
+Iter: 992, @nodes [1, 2, 3] => leader: 3, term: 1031
+  Node 3 goes down for 5 sec
+  Node 3 goes up and wait for 5 sec before next iteration
+Iter: 993, @nodes [1, 2, 3] => leader: 1, term: 1033
+  Interface s1-eth2 goes down for 5 sec
+  Interface s1-eth2 goes up and wait for 5 sec before next iteration
+Iter: 994, @nodes [1, 2, 3] => leader: 2, term: 1034
+  Interface s2-eth2 goes down for 5 sec
+  Interface s2-eth2 goes up and wait for 5 sec before next iteration
+Iter: 995, @nodes [1, 2, 3] => leader: 3, term: 1035
+  Interface s3-eth2 goes down for 5 sec
+  Interface s3-eth2 goes up and wait for 5 sec before next iteration
+Iter: 996, @nodes [1, 2, 3] => leader: 1, term: 1036
+  Node 1 goes down for 5 sec
+  Node 1 goes up and wait for 5 sec before next iteration
+Iter: 997, @nodes [1, 2, 3] => leader: 2, term: 1038
+  Interface s2-eth3 goes down for 5 sec
+  Interface s2-eth3 goes up and wait for 5 sec before next iteration
+Iter: 998, @nodes [1, 2, 3] => leader: 1, term: 1039
+  Node 1 goes down for 5 sec
+  Node 1 goes up and wait for 5 sec before next iteration
+Iter: 999, @nodes [1, 2, 3] => leader: 3, term: 1040
+  Interface s3-eth2 goes down for 5 sec
+  Interface s3-eth2 goes up and wait for 5 sec before next iteration
+2:47:14.526554
+-- Prediction success rate: 0.0
+--   Prediction success rate for failure 2-3 (freq: 17.1): 0.0
+--   Prediction success rate for failure 1-3 (freq: 16.2): 0.0
+--   Prediction success rate for failure 1-2 (freq: 16.9): 0.0
+--   Prediction success rate for failure 1 (freq: 17.4): 0.0
+--   Prediction success rate for failure 3 (freq: 16.8): 0.0
+--   Prediction success rate for failure 2 (freq: 15.6): 0.0
+-- Experiment stops
