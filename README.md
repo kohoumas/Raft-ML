@@ -1,5 +1,5 @@
 # Raft-ML
-Machine Learning for enhancing Raft
+Machine Learning for enhancing etcd/Raft
 
 More details in paper of Kostas Choumas and Thanasis Korakis,
 "When Machine Learning Meets Raft: How to Elect a Leader over a Network", Proceedings of IEEE GLOBECOM 2023.
