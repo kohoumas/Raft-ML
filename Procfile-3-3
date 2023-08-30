@@ -1,0 +1,2 @@
+# Use goreman to run `go get github.com/mattn/goreman`
+raftexample3: ./raftexample --id 3 --cluster http://192.168.1.1:12379,http://192.168.1.2:22379,http://192.168.1.3:32379 --port 32380
