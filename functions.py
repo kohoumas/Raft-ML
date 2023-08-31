@@ -5,8 +5,8 @@ import pandas as pd
 import numpy as np
 from sklearn.neighbors import DistanceMetric
 
-#NODES = 3
-NODES = 5
+NODES = 3
+#NODES = 5
 ROLES = 4 ## 1 : OBSERVER, 2 : PREVIOUS LEADER, 3 : NEXT LEADER, 4 : OTHERS
 
 column_names = ["msgType", "sendTo", "from", "term", "relativeTerm", "voteResp", "time", "relativeTime"]
@@ -376,39 +376,39 @@ def transform_sample(sample, history, binary=True):
 			transformed_sample.append(msg_id)
 
 	## The remaining history x relative times are copied unchanged.
-	#for i in range(MSG_VALUES*history, len(sample) - 2): # Last sample integers, with index higher than (MSG_BITS x history), APART FROM the very last two ones, remain unchanged.
-	#	transformed_sample.append(sample[i])
+	for i in range(MSG_VALUES*history, len(sample) - 2): # Last sample integers, with index higher than (MSG_BITS x history), APART FROM the very last two ones, remain unchanged.
+		transformed_sample.append(sample[i])
 
 	## The before-last value is the previous leader id, which is copied either as binary or as it is.
-	prev_leader_id = int(sample[-2]) # LastHeartbeatFrom, after replacing node ids with roles, is equal to either 0, 1 or 2 (=UNKNOWN, OBSERVER or PREVIOUS LEADER).
-	if binary: 
-		prev_leader_bits = [0, 0]
-		if prev_leader_id > 0: # 1 or 2 (=OBSERVER or PREVIOUS LEADER).
-			prev_leader_bits[prev_leader_id - 1] = 1 # history # last message is weighted 20 times more than others, since it is the indicator of the previous leader
+	#prev_leader_id = int(sample[-2]) # LastHeartbeatFrom, after replacing node ids with roles, is equal to either 0, 1 or 2 (=UNKNOWN, OBSERVER or PREVIOUS LEADER).
+	#if binary: 
+	#	prev_leader_bits = [0, 0]
+	#	if prev_leader_id > 0: # 1 or 2 (=OBSERVER or PREVIOUS LEADER).
+	#		prev_leader_bits[prev_leader_id - 1] = 1 # history # last message is weighted 20 times more than others, since it is the indicator of the previous leader
 			                                         # [1, 0], [0, 1] or [0, 0] for OBSERVER, PREVIOUS LEADER or unknown prev. leader respectively.
-		#transformed_sample += prev_leader_bits
-	else:
-		transformed_sample.append(prev_leader_id)
+	#	transformed_sample += prev_leader_bits
+	#else:
+	#	transformed_sample.append(prev_leader_id)
 
 	## Two new values are added at the end, the sum and variance of the relative times.
-	#sum_rel_time = 0.0 ## the sum of the relative times
-	#for i in range(MSG_VALUES*history+1, len(sample) - 2, 1):
-	#	sum_rel_time += sample[i]
-	#transformed_sample.append(sum_rel_time) 
-	#var_rel_time = 0.0 ## the var of the relative times
-	#for i in range(MSG_VALUES*history+1, len(sample) - 3, 1):
-	#	var_rel_time += (sample[i] - sample[i+1])**2
-	#transformed_sample.append(var_rel_time)
+	sum_rel_time = 0.0 ## the sum of the relative times
+	for i in range(MSG_VALUES*history+1, len(sample) - 2, 1):
+		sum_rel_time += sample[i]
+	transformed_sample.append(sum_rel_time) 
+	var_rel_time = 0.0 ## the var of the relative times
+	for i in range(MSG_VALUES*history+1, len(sample) - 3, 1):
+		var_rel_time += (sample[i] - sample[i+1])**2
+	transformed_sample.append(var_rel_time)
 	## Three new sequences are added at the end, the numbers and the most recent/past positions for each msg id.
-	#transformed_sample += msg_freq
-	#transformed_sample += msg_last
-	#transformed_sample += msg_first
+	transformed_sample += msg_freq
+	transformed_sample += msg_last
+	transformed_sample += msg_first
 	## Three new sequences are added at the end, the numbers and the most recent/past positions of the msgs sent to or received by either role 2, 3 or 4.
-	#transformed_sample += msg_freq_role
-	#transformed_sample += msg_last_role 
-	#transformed_sample += msg_first_role 
+	transformed_sample += msg_freq_role
+	transformed_sample += msg_last_role 
+	transformed_sample += msg_first_role 
 	## Number of heartbeats, sent or received, is added at the end.
-	#transformed_sample.append(msg8_freq)
+	transformed_sample.append(msg8_freq)
 	return transformed_sample
 
 def inverse_transform_sample(transformed_sample, history): 

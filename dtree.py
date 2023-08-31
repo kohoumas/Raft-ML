@@ -83,6 +83,13 @@ transformed_data = [transform_sample(sample, history, binary=True) for sample in
 target = dataset['failure']
 target = target.values
 target_old = dataset_old['failure']
+print(len(target_old))
+print(len(target_old[target_old==0])/len(target_old)*100)
+print(len(target_old[target_old==1])/len(target_old)*100)
+print(len(target_old[target_old==2])/len(target_old)*100)
+print(len(target_old[target_old==3])/len(target_old)*100)
+print(len(target_old[target_old==4])/len(target_old)*100)
+print(len(target_old[target_old==5])/len(target_old)*100)
 target_old = target_old.values
 
 impurity_factor = 0.01
